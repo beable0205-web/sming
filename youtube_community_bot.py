@@ -6,6 +6,11 @@ import re
 from dotenv import load_dotenv
 import google.generativeai as genai
 from playwright.sync_api import sync_playwright
+import hmac
+import hashlib
+import json
+import requests
+from time import gmtime, strftime
 
 # ---------------------------------------------------------
 # 환경 변수 및 설정
@@ -18,7 +23,49 @@ YOUTUBE_HANDLE = "@%EA%B9%80%EC%8C%A4%EC%9D%98%EC%98%81%EC%9B%85%EB%9D%BC%EB%94%
 SITE_URL = "https://paradise-hero.com"
 
 # ---------------------------------------------------------
-# 1. AI 멘트 생성 함수
+# 1. 쿠팡 파트너스 골드박스 상품 추출 (Data 페르소나 적용)
+# ---------------------------------------------------------
+def get_coupang_goldbox_link():
+    access_key = os.getenv("COUPANG_ACCESS_KEY")
+    secret_key = os.getenv("COUPANG_SECRET_KEY")
+    
+    fallback_title = "쿠팡 로켓배송 반값 특가"
+    fallback_url = "https://influencers.coupang.com/s/paradisehero?subId=youtube_bot"
+    
+    if not access_key or not secret_key:
+        print("⚠️ 쿠팡 API 키가 없습니다. 기본 링크를 사용합니다.")
+        return fallback_title, fallback_url
+        
+    method = "GET"
+    url = "/v2/providers/affiliate_open_api/apis/openapi/products/goldbox"
+    
+    datetime_str = strftime('%y%m%d', gmtime()) + 'T' + strftime('%H%M%S', gmtime()) + 'Z'
+    message = datetime_str + method + url
+    signature = hmac.new(bytes(secret_key, "utf-8"), message.encode("utf-8"), hashlib.sha256).hexdigest()
+    
+    authorization = f"CEA algorithm=HmacSHA256, access-key={access_key}, signed-date={datetime_str}, signature={signature}"
+    domain = "https://api-gateway.coupang.com"
+    full_url = domain + url + "?subId=youtube_bot"
+    
+    headers = {
+        "Authorization": authorization,
+        "Content-Type": "application/json"
+    }
+    
+    try:
+        response = requests.get(full_url, headers=headers)
+        data = response.json()
+        if data.get("rCode") == "0" and data.get("data"):
+            # 랜덤으로 골드박스 상품 1개 선택
+            product = random.choice(data["data"][:5]) 
+            return product["productName"], product["productUrl"]
+    except Exception as e:
+        print("Coupang API 에러:", e)
+        
+    return fallback_title, fallback_url
+
+# ---------------------------------------------------------
+# 2. AI 멘트 생성 함수 (C-3PO 카피라이터 페르소나 적용)
 # ---------------------------------------------------------
 def generate_community_post():
     if not GEMINI_API_KEY:
@@ -43,21 +90,33 @@ def generate_community_post():
     ]
     concept = random.choice(concepts)
     
+    # 쿠팡 다이나믹 상품 가져오기
+    cp_title, cp_url = get_coupang_goldbox_link()
+    
     prompt = f"""
-    당신은 가수 황영웅님을 열렬히 응원하는 5070 시니어 팬덤의 리더 '김쌤'입니다.
+    당신은 가수 황영웅님을 열렬히 응원하는 5070 시니어 팬덤의 리더 '김쌤'이자 탁월한 심리 마케터입니다.
     오늘 유튜브 커뮤니티 게시판에 올릴 짧고 감동적인 응원 멘트를 작성해주세요.
     
     [현재 시간]: {time_str}
     [오늘의 특별 작성 콘셉트]: {concept}
+    [오늘의 쿠팡 추천 상품]: {cp_title}
     
     [조건]
-    1. 위의 [오늘의 특별 작성 콘셉트]를 무조건 글의 첫 부분에 강하게 반영하여, 매번 똑같은 패턴의 인사("선배님들 안녕하세요~" 등)를 절대 피할 것!
-    2. 글 중간에 황영웅님에 대한 열정적인 응원을 자연스럽게 녹여낼 것.
-    3. 글 마지막에는 반드시 아래 문구와 링크를 포함할 것:
-       "👇 오늘의 필수 스밍 미션 및 쿠팡 반값 특가 보러가기 👇"
-       "{SITE_URL}"
-    4. 길이는 4~6문장 정도로 짧고 임팩트 있게 작성.
-    5. 친근하고 예의 바른 '해요체/합쇼체' 사용. 이모티콘(🎵, 💚, ☕ 등) 적절히 섞어쓰기.
+    1. [오늘의 특별 작성 콘셉트]를 첫 부분에 강하게 반영하여 매번 똑같은 패턴의 인사를 피하세요.
+    2. 글 중간에 황영웅님에 대한 열정적인 응원을 자연스럽게 녹여내세요.
+    3. 글 마지막에는 **반드시** 아래 문구와 링크들을 그대로 포함하세요. 팬들이 돈을 쓰지 않고도 응원방을 후원할 수 있다는 '강력한 명분'을 심어주는 것이 핵심입니다.
+    
+       👇 [필수] 오늘의 스밍/투표 미션하러 가기 👇
+       {SITE_URL}
+       
+       🎁 팬님! 오늘 장보실 일 있으신가요? 🎁
+       아래 링크에서 [{cp_title}] 또는 필요한 생필품을 구경만 하셔도, 
+       팬님은 1원도 손해보지 않지만 영웅님 1위 투표 활동비가 저희에게 후원됩니다!
+       👇 0원으로 영웅님 1위 만들기 동참하기 👇
+       {cp_url}
+       
+    4. 길이는 인사말 포함 5~7문장 정도로 임팩트 있게 작성하세요.
+    5. 친근하고 예의 바른 '해요체/합쇼체'를 사용하고, 이모티콘(🎵, 💚, ☕ 등)을 적절히 섞어주세요.
     """
     
     print("AI 멘트 생성 중...")
@@ -85,11 +144,20 @@ def post_to_youtube_community(post_text):
         
         page = browser.new_page()
         
-        # 1. 유튜브 메인 접속 (로그인 확인)
-        page.goto("https://www.youtube.com")
+        # 1. 내 채널 커뮤니티 탭으로 바로 이동 (리다이렉트 방해 방지)
+        community_url = f"https://www.youtube.com/{YOUTUBE_HANDLE}/community"
+        print(f"커뮤니티 탭으로 이동 중: {community_url}")
+        
+        try:
+            page.goto(community_url, wait_until="domcontentloaded")
+        except Exception:
+            print("리다이렉션 방해 발생, 다시 시도합니다...")
+            time.sleep(2)
+            page.goto(community_url, wait_until="domcontentloaded")
+            
         time.sleep(3)
         
-        # 로그인 버튼이 있는지 확인
+        # 2. 로그인 여부 확인
         login_button = page.locator("a[href^='https://accounts.google.com/ServiceLogin']")
         if login_button.count() > 0:
             print("==================================================")
@@ -98,12 +166,10 @@ def post_to_youtube_community(post_text):
             print("로그인이 완료되면 이 창에서 엔터를 누르세요...")
             print("==================================================")
             input("로그인 완료 후 엔터 누르기: ")
-        
-        # 2. 내 채널 커뮤니티 탭으로 이동
-        community_url = f"https://www.youtube.com/{YOUTUBE_HANDLE}/community"
-        print(f"커뮤니티 탭으로 이동 중: {community_url}")
-        page.goto(community_url)
-        time.sleep(5)
+            
+            # 로그인 완료 후 다시 커뮤니티 탭으로 확실히 이동
+            page.goto(community_url)
+            time.sleep(5)
         
         try:
             # 3. 글 작성 입력창 클릭
