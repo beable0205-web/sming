@@ -26,41 +26,17 @@ SITE_URL = "https://paradise-hero.com"
 # 1. 쿠팡 파트너스 골드박스 상품 추출 (Data 페르소나 적용)
 # ---------------------------------------------------------
 def get_coupang_goldbox_link():
-    access_key = os.getenv("COUPANG_ACCESS_KEY")
-    secret_key = os.getenv("COUPANG_SECRET_KEY")
-    
-    fallback_title = "쿠팡 로켓배송 반값 특가"
+    fallback_title = "쿠팡 로켓배송 생필품 특가"
     fallback_url = "https://influencers.coupang.com/s/paradisehero?subId=youtube_bot"
     
-    if not access_key or not secret_key:
-        print("⚠️ 쿠팡 API 키가 없습니다. 기본 링크를 사용합니다.")
-        return fallback_title, fallback_url
-        
-    method = "GET"
-    url = "/v2/providers/affiliate_open_api/apis/openapi/products/goldbox"
-    
-    datetime_str = strftime('%y%m%d', gmtime()) + 'T' + strftime('%H%M%S', gmtime()) + 'Z'
-    message = datetime_str + method + url
-    signature = hmac.new(bytes(secret_key, "utf-8"), message.encode("utf-8"), hashlib.sha256).hexdigest()
-    
-    authorization = f"CEA algorithm=HmacSHA256, access-key={access_key}, signed-date={datetime_str}, signature={signature}"
-    domain = "https://api-gateway.coupang.com"
-    full_url = domain + url + "?subId=youtube_bot"
-    
-    headers = {
-        "Authorization": authorization,
-        "Content-Type": "application/json"
-    }
-    
     try:
-        response = requests.get(full_url, headers=headers)
-        data = response.json()
-        if data.get("rCode") == "0" and data.get("data"):
-            # 랜덤으로 골드박스 상품 1개 선택
-            product = random.choice(data["data"][:5]) 
-            return product["productName"], product["productUrl"]
+        # coupang_api.py가 생성해둔 1등 추천 상품 json 읽기
+        if os.path.exists("best_product.json"):
+            with open("best_product.json", "r", encoding="utf-8") as f:
+                product = json.load(f)
+                return product.get("productName", fallback_title), product.get("productUrl", fallback_url)
     except Exception as e:
-        print("Coupang API 에러:", e)
+        print("최고의 상품 정보를 읽어오는데 실패했습니다:", e)
         
     return fallback_title, fallback_url
 
