@@ -1,0 +1,498 @@
+<!-- C:\Users\infomax\.gemini\antigravity\brain\c97b956b-3da4-45a3-b2d0-6611d6d50ed6\welfare_widget.html -->
+<div id="welfare-finder-container">
+  <div class="wf-card">
+    <div class="wf-header">
+      <span class="wf-badge">Smart Welfare Search</span>
+      <h2>💡 3초 만에 찾는 나의 정부 지원금</h2>
+      <p>간단한 조건 선택으로 지금 바로 신청 가능한 혜택과 <strong>공식 정부 신청 링크</strong>까지 한 번에 확인하세요.</p>
+    </div>
+    
+    <div class="wf-body">
+      <!-- Step 1: 연령대 선택 -->
+      <div class="wf-step active" id="step-1">
+        <label class="wf-label">1. 연령대를 선택해 주세요.</label>
+        <div class="wf-options-grid">
+          <button class="wf-option-btn" data-step="1" data-val="youth">
+            <span class="wf-opt-icon">⚡</span>
+            <div>
+              <span class="wf-opt-title">만 19세 ~ 34세</span>
+              <span class="wf-opt-desc">대학생, 사회초년생, 청년층 대상 혜택</span>
+            </div>
+          </button>
+          <button class="wf-option-btn" data-step="1" data-val="middle">
+            <span class="wf-opt-icon">💼</span>
+            <div>
+              <span class="wf-opt-title">만 35세 ~ 59세</span>
+              <span class="wf-opt-desc">중장년층, 직장인, 가구주 대상 혜택</span>
+            </div>
+          </button>
+          <button class="wf-option-btn" data-step="1" data-val="senior">
+            <span class="wf-opt-icon">👴</span>
+            <div>
+              <span class="wf-opt-title">만 60세 이상</span>
+              <span class="wf-opt-desc">시니어, 연금 대상자, 실버 세대 혜택</span>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <!-- Step 2: 대상 구분 -->
+      <div class="wf-step" id="step-2">
+        <label class="wf-label">2. 현재 본인의 상황에 해당하는 항목은?</label>
+        <div class="wf-options-grid">
+          <button class="wf-option-btn" data-step="2" data-val="worker">
+            <span class="wf-opt-icon">🏢</span>
+            <div>
+              <span class="wf-opt-title">직장인 / 구직자</span>
+              <span class="wf-opt-desc">근로 소득이 있거나 현재 구직 중인 분</span>
+            </div>
+          </button>
+          <button class="wf-option-btn" data-step="2" data-val="business">
+            <span class="wf-opt-icon">🏪</span>
+            <div>
+              <span class="wf-opt-title">소상공인 / 자영업자</span>
+              <span class="wf-opt-desc">개인 사업체를 운영 중이거나 예비 창업자</span>
+            </div>
+          </button>
+          <button class="wf-option-btn" data-step="2" data-val="parent">
+            <span class="wf-opt-icon">🍼</span>
+            <div>
+              <span class="wf-opt-title">육아 / 가구 구성원</span>
+              <span class="wf-opt-desc">자녀를 양육 중이거나 다자녀 가구에 해당</span>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <!-- Step 3: 소득 수준 -->
+      <div class="wf-step" id="step-3">
+        <label class="wf-label">3. 대략적인 소득 기준을 선택해 주세요.</label>
+        <div class="wf-options-grid">
+          <button class="wf-option-btn" data-step="3" data-val="low">
+            <span class="wf-opt-icon">📉</span>
+            <div>
+              <span class="wf-opt-title">중위소득 100% 이하</span>
+              <span class="wf-opt-desc">기준 중위소득 이하 서민/지원 대상 가구</span>
+            </div>
+          </button>
+          <button class="wf-option-btn" data-step="3" data-val="mid">
+            <span class="wf-opt-icon">📈</span>
+            <div>
+              <span class="wf-opt-title">중위소득 100% 초과</span>
+              <span class="wf-opt-desc">중위소득 초과 가구 또는 일반 소득층</span>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <!-- Result Section -->
+      <div class="wf-result" id="wf-result">
+        <div class="wf-result-header">
+          <div class="wf-success-badge">🌈 분석 완료</div>
+          <h3>조건에 맞는 맞춤형 정부 지원금 목록</h3>
+          <p>상세 안내를 읽어보시거나, 공식 신청 페이지로 즉시 이동할 수 있습니다.</p>
+        </div>
+        
+        <div class="wf-result-list" id="result-links">
+          <!-- 결과 카드들이 동적으로 생성됨 -->
+        </div>
+        
+        <button class="wf-reset-btn" id="wf-reset">🔄 조건 다시 선택하고 진단하기</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+/* K-복지 알리미 전용 초고화질 반응형 스타일 */
+#welfare-finder-container {
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  margin: 24px auto;
+  max-width: 620px;
+  background: linear-gradient(145deg, #4f46e5 0%, #3b82f6 100%);
+  padding: 4px;
+  border-radius: 24px;
+  box-shadow: 0 20px 40px rgba(59, 130, 246, 0.15);
+}
+
+.wf-card {
+  background: #ffffff;
+  border-radius: 21px;
+  padding: 36px 28px;
+  box-sizing: border-box;
+}
+
+.wf-badge {
+  display: inline-block;
+  background: rgba(59, 130, 246, 0.08);
+  color: #2563eb;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 5px 12px;
+  border-radius: 50px;
+  letter-spacing: 0.5px;
+}
+
+.wf-header h2 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 12px 0 6px 0;
+  letter-spacing: -0.7px;
+}
+
+.wf-header p {
+  font-size: 14px;
+  color: #475569;
+  line-height: 1.5;
+  margin-bottom: 28px;
+}
+
+.wf-step {
+  display: none;
+  animation: slideIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.wf-step.active {
+  display: block;
+}
+
+.wf-label {
+  display: block;
+  font-size: 16px;
+  font-weight: 800;
+  color: #1e293b;
+  margin-bottom: 18px;
+}
+
+.wf-options-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.wf-option-btn {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 16px 20px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  text-align: left;
+  width: 100%;
+}
+
+.wf-option-btn:hover {
+  background: #f1f5f9;
+  border-color: #cbd5e1;
+  transform: translateY(-2px);
+}
+
+.wf-opt-icon {
+  font-size: 24px;
+  background: #ffffff;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.wf-opt-title {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.wf-opt-desc {
+  display: block;
+  font-size: 12px;
+  color: #64748b;
+  margin-top: 2px;
+}
+
+/* 결과창 스타일링 */
+.wf-result {
+  display: none;
+  animation: slideIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.wf-success-badge {
+  display: inline-block;
+  background: #10b981;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 800;
+  padding: 6px 14px;
+  border-radius: 50px;
+  margin-bottom: 12px;
+}
+
+.wf-result-header h3 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0 0 6px 0;
+}
+
+.wf-result-header p {
+  font-size: 13px;
+  color: #64748b;
+  margin-bottom: 24px;
+}
+
+.wf-result-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+/* 개별 카드식 결과 아이템 */
+.wf-card-item {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  padding: 20px;
+  transition: all 0.25s ease;
+}
+
+.wf-card-item:hover {
+  border-color: #3b82f6;
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.06);
+}
+
+.wf-item-header {
+  margin-bottom: 12px;
+}
+
+.wf-item-title {
+  font-size: 16px;
+  font-weight: 800;
+  color: #1e293b;
+  display: block;
+}
+
+.wf-item-desc {
+  font-size: 13px;
+  color: #64748b;
+  margin-top: 4px;
+  display: block;
+  line-height: 1.4;
+}
+
+/* 버튼 그룹 (상세보기 vs 정부 바로가기) */
+.wf-btn-group {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.wf-btn-guide {
+  background: #f1f5f9;
+  color: #334155;
+  border: 1px solid #cbd5e1;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.wf-btn-guide:hover {
+  background: #e2e8f0;
+}
+
+.wf-btn-gov {
+  background: #2563eb;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  transition: all 0.2s ease;
+}
+
+.wf-btn-gov:hover {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+.wf-reset-btn {
+  width: 100%;
+  background: #ffffff;
+  border: 1px dashed #cbd5e1;
+  padding: 14px;
+  border-radius: 14px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #64748b;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.wf-reset-btn:hover {
+  background: #f8fafc;
+  color: #1e293b;
+  border-color: #94a3b8;
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const selections = { step1: '', step2: '', step3: '' };
+  const buttons = document.querySelectorAll('.wf-option-btn');
+  
+  // 🏛️ 정부 공식 신청 사이트 DB 연동 완료
+  const resultDatabase = {
+    'youth-worker-low': [
+      { 
+        title: '청년도약계좌 (월 70만원 저축 ➡️ 5천만원 목돈)', 
+        desc: '정부 기여금 및 비과세 혜택 제공 청년 맞춤 적금 통장', 
+        guideUrl: '/youth-leap-account',
+        govUrl: 'https://www.kinfa.or.kr' // 서민금융진흥원
+      },
+      { 
+        title: '청년 월세 특별지원 (월 20만원 지원)', 
+        desc: '만 19~34세 독립 청년의 실질 월 임차료 특별 지원금', 
+        guideUrl: '/youth-rent-subsidy',
+        govUrl: 'https://www.bokjiro.go.kr' // 복지로
+      }
+    ],
+    'youth-worker-mid': [
+      { 
+        title: '청년도약계좌 (월 70만원 저축 ➡️ 5천만원 목돈)', 
+        desc: '정부 기여금 및 비과세 혜택을 주는 청년 적금', 
+        guideUrl: '/youth-leap-account',
+        govUrl: 'https://www.kinfa.or.kr'
+      }
+    ],
+    'youth-business-low': [
+      { 
+        title: '소상공인 정책자금 지원 (초저금리 대출)', 
+        desc: '청년 사업자 우대 금리가 지원되는 정부 대리 대출 자금', 
+        guideUrl: '/smallbiz-loan',
+        govUrl: 'https://ols.semas.or.kr' // 소상공인시장진흥공단
+      },
+      { 
+        title: '예비 청년 창업 패키지 (최대 5,000만원 무상)', 
+        desc: '사업화 자금, 멘토링, 마케팅 지원을 포함한 원스톱 창업 패키지', 
+        guideUrl: '/youth-startup',
+        govUrl: 'https://www.k-startup.go.kr' // K-스타트업
+      }
+    ],
+    'middle-worker-low': [
+      { 
+        title: '근로장려금 (가구당 최대 330만원 수령)', 
+        desc: '열심히 일하는 서민층을 위한 소득 지원형 환급 제도', 
+        guideUrl: '/earned-income-tax',
+        govUrl: 'https://www.hometax.go.kr' // 국세청 홈택스
+      }
+    ],
+    'parent-low': [
+      { 
+        title: '아동수당 및 부모급여 (0세 아동 가구 월 100만원)', 
+        desc: '가정 양육 부담 경감을 위한 정부 양육 지원 현금성 수당', 
+        guideUrl: '/parent-subsidy',
+        govUrl: 'https://www.bokjiro.go.kr'
+      },
+      { 
+        title: '자녀 장려금 (아동 1인당 최대 100만원 환급)', 
+        desc: '저소득 가구의 육아 부담을 줄이기 위한 현금 환급 지원금', 
+        guideUrl: '/child-allowance',
+        govUrl: 'https://www.hometax.go.kr'
+      }
+    ]
+  };
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const step = btn.getAttribute('data-step');
+      const val = btn.getAttribute('data-val');
+      
+      const siblings = btn.parentElement.querySelectorAll('.wf-option-btn');
+      siblings.forEach(s => s.classList.remove('selected'));
+      btn.classList.add('selected');
+      
+      selections[`step${step}`] = val;
+      
+      setTimeout(() => {
+        const currentStepEl = document.getElementById(`step-${step}`);
+        const nextStepEl = document.getElementById(`step-${parseInt(step)+1}`);
+        
+        if (nextStepEl) {
+          currentStepEl.classList.remove('active');
+          nextStepEl.classList.add('active');
+        } else {
+          currentStepEl.classList.remove('active');
+          showResults();
+        }
+      }, 300);
+    });
+  });
+
+  function showResults() {
+    const key = `${selections.step1}-${selections.step2}-${selections.step3}`;
+    const fallbackKey = `${selections.step1}-${selections.step2}-low`;
+    const results = resultDatabase[key] || resultDatabase[fallbackKey] || [
+      { 
+        title: '2026년 정부 통합 지원금 통합 캘린더', 
+        desc: '매월 새롭게 발표되는 전 국민 정부 혜택 일정 가이드', 
+        guideUrl: '/welfare-calendar',
+        govUrl: 'https://www.gov.kr' // 정부24 공식포털
+      }
+    ];
+    
+    const listContainer = document.getElementById('result-links');
+    listContainer.innerHTML = '';
+    
+    results.forEach(res => {
+      const card = document.createElement('div');
+      card.className = 'wf-card-item';
+      card.innerHTML = `
+        <div class="wf-item-header">
+          <span class="wf-item-title">👑 ${res.title}</span>
+          <span class="wf-item-desc">${res.desc}</span>
+        </div>
+        <div class="wf-btn-group">
+          <a href="${res.guideUrl}" class="wf-btn-guide">📘 상세 꿀팁 가이드</a>
+          <a href="${res.govUrl}" target="_blank" rel="noopener noreferrer" class="wf-btn-gov">
+            🏛️ 정부 공식 신청 🔗
+          </a>
+        </div>
+      `;
+      listContainer.appendChild(card);
+    });
+    
+    document.getElementById('wf-result').style.display = 'block';
+  }
+
+  document.getElementById('wf-reset').addEventListener('click', () => {
+    document.getElementById('wf-result').style.display = 'none';
+    buttons.forEach(b => b.classList.remove('selected'));
+    document.getElementById('step-1').classList.add('active');
+    selections.step1 = ''; selections.step2 = ''; selections.step3 = '';
+  });
+});
+</script>
