@@ -4,6 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>2026년 청년도약계좌 조건 및 혜택 완벽 총정리 | K-복지 알리미</title>
+  <!-- 📊 OpenGraph SNS Sharing Meta Tags -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="2026년 청년도약계좌 조건 및 혜택 완벽 총정리 | K-복지 알리미">
+  <meta property="og:description" content="2026년 대한민국 공공 기관 보도자료 기준 최신 복지 및 지원금 요건 정밀 분석 보고서">
+  <meta property="og:image" content="https://www.paradise-hero.com/logo.png">
+  <meta property="og:url" content="https://www.paradise-hero.com/articles/youth-leap.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2026년 청년도약계좌 조건 및 혜택 완벽 총정리 | K-복지 알리미">
+  <meta name="twitter:description" content="2026년 대한민국 공공 기관 보도자료 기준 최신 복지 및 지원금 요건 정밀 분석 보고서">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>">
   <link rel="canonical" href="https://www.paradise-hero.com/articles/youth-leap.html">
   <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -142,6 +152,53 @@
           정부 공식 신청처 바로가기 🔗
         </a>
       </div>
+    
+      <!-- 📢 소셜 공유 위젯 컴포넌트 -->
+      <div class="share-container" style="margin-top: 48px; padding: 28px; background: #f8fafc; border-radius: 20px; border: 1px solid #e2e8f0; text-align: center; box-shadow: var(--shadow-sm);">
+        <h4 style="font-size: 15.5px; font-weight: 800; color: var(--dark); margin-bottom: 6px;">📢 소중한 가족과 지인들에게 이 복지 혜택을 알려주세요!</h4>
+        <p style="font-size: 12.5px; color: var(--slate-500); margin-bottom: 20px;">우측 상단 3단 점 또는 아래 버튼을 통해 쉽게 공유하실 수 있습니다.</p>
+        <div class="share-buttons" style="display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;">
+          <button onclick="shareKakao()" style="background: #fee500; border: none; padding: 12px 20px; border-radius: 12px; font-size: 13px; font-weight: 800; color: #191919; cursor: pointer; display: flex; align-items: center; gap: 8px; transition: var(--transition);">
+            <span style="font-size:16px;">💬</span> 카카오톡 공유
+          </button>
+          <button onclick="shareFacebook()" style="background: #1877f2; border: none; padding: 12px 20px; border-radius: 12px; font-size: 13px; font-weight: 800; color: #ffffff; cursor: pointer; display: flex; align-items: center; gap: 8px; transition: var(--transition);">
+            <span style="font-size:16px;">👥</span> 페이스북
+          </button>
+          <button onclick="shareTwitter()" style="background: #000000; border: none; padding: 12px 20px; border-radius: 12px; font-size: 13px; font-weight: 800; color: #ffffff; cursor: pointer; display: flex; align-items: center; gap: 8px; transition: var(--transition);">
+            <span style="font-size:16px;">𝕏</span> 트위터 공유
+          </button>
+          <button onclick="copyPageUrl()" style="background: var(--slate-700); border: none; padding: 12px 20px; border-radius: 12px; font-size: 13px; font-weight: 800; color: #ffffff; cursor: pointer; display: flex; align-items: center; gap: 8px; transition: var(--transition);">
+            <span style="font-size:16px;">🔗</span> 링크 주소 복사
+          </button>
+        </div>
+      </div>
+
+      <script>
+      function shareKakao() {
+        const shareUrl = window.location.href;
+        window.open('https://share.kakao.com/talk/friends/picker/link?url=' + encodeURIComponent(shareUrl));
+      }
+      function shareFacebook() {
+        const shareUrl = window.location.href;
+        window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(shareUrl));
+      }
+      function shareTwitter() {
+        const shareUrl = window.location.href;
+        const shareText = document.title;
+        window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(shareText) + '&url=' + encodeURIComponent(shareUrl));
+      }
+      function copyPageUrl() {
+        const dummy = document.createElement('input');
+        const text = window.location.href;
+        document.body.appendChild(dummy);
+        dummy.value = text;
+        dummy.select();
+        document.execCommand('copy');
+        document.body.removeChild(dummy);
+        alert('이 유용한 정책 가이드 주소가 클립보드에 성공적으로 복사되었습니다! 카카오톡방이나 지인 대화방에 Ctrl+V로 붙여넣어 공유해 보세요.');
+      }
+      </script>
+
     </article>
   </main>
 
