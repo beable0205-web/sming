@@ -819,6 +819,13 @@
 
     // Initial Render
     renderApiResults();
+
+    document.getElementById('wf-reset').addEventListener('click', () => {
+      document.getElementById('wf-result').style.display = 'none';
+      buttons.forEach(b => b.classList.remove('selected'));
+      document.getElementById('step-1').classList.add('active');
+      selections.step1 = ''; selections.step2 = ''; selections.step3 = '';
+    });
   });
   </script>
 </body>
