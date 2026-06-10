@@ -802,40 +802,109 @@ footer {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* Responsive Breakpoints */
+/* Extracted Grid Styles */
+#api-results-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  min-height: 200px;
+}
+.api-no-results {
+  grid-column: 1 / -1; 
+  text-align: center; 
+  padding: 40px; 
+  background: #ffffff; 
+  border: 1px dashed #cbd5e1; 
+  border-radius: 16px; 
+  width:100%;
+}
+.api-btns {
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  gap: 8px;
+}
+
+/* Responsive Breakpoints (Mobile UI Enhancements) */
 @media (max-width: 768px) {
-  .nav-container nav, .nav-container .nav-btn {
-    display: none;
+  /* Navigation */
+  .nav-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px;
   }
+  .nav-container nav {
+    display: none; /* Hide top links to save space */
+  }
+  .nav-container .nav-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 8px;
+    padding: 12px;
+  }
+  
+  /* Hero Section */
   .hero {
-    padding: 50px 24px 30px 24px;
+    padding: 40px 20px 20px 20px;
   }
   .hero h1 {
-    font-size: 30px;
+    font-size: 26px;
+    line-height: 1.3;
   }
   .hero p {
-    font-size: 15px;
-    margin-bottom: 28px;
+    font-size: 14.5px;
+    margin-bottom: 24px;
+    padding: 0 10px;
   }
+
+  /* Welfare Finder Grid */
   .wf-card {
     padding: 24px 16px;
   }
   .wf-header h2 {
-    font-size: 20px;
+    font-size: 22px;
+  }
+  .wf-options-grid {
+    gap: 10px;
   }
   .wf-btn-group {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* Stack guide and official buttons */
+    gap: 10px;
   }
+
+  /* API Dashboard Grid */
+  #api-results-grid {
+    grid-template-columns: 1fr; /* Stack API cards */
+    gap: 16px;
+  }
+  .api-btns {
+    grid-template-columns: 1fr; /* Stack inner API card buttons */
+  }
+
+  /* Articles Grid */
   .articles-grid {
     grid-template-columns: 1fr;
     gap: 20px;
   }
   .article-header h1 {
-    font-size: 26px;
+    font-size: 24px;
+    line-height: 1.35;
   }
+
+  /* Footer */
   .footer-top {
     grid-template-columns: 1fr;
-    gap: 30px;
-    padding: 40px 24px;
+    gap: 32px;
+    padding: 40px 20px;
+    text-align: center; /* Center footer contents on mobile */
+  }
+  .footer-trust-info {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  .footer-trust-info span::after {
+    display: none; /* Remove separators on mobile */
   }
 }
