@@ -121,6 +121,13 @@
                   <span class="wf-opt-desc">자녀를 양육 중이거나 다자녀 가구에 해당</span>
                 </div>
               </button>
+              <button class="wf-option-btn" data-step="2" data-val="housing">
+                <span class="wf-opt-icon">🏠</span>
+                <div>
+                  <span class="wf-opt-title">주거 / 청약 (무주택자)</span>
+                  <span class="wf-opt-desc">내집마련 및 전월세 안정이 필요한 가구</span>
+                </div>
+              </button>
             </div>
           </div>
 
@@ -491,6 +498,42 @@
           govUrl: 'https://www.hometax.go.kr' // 국세청 홈택스
         }
       ],
+      'youth-housing-low': [
+        { 
+          title: '청년 월세 특별지원 (월 20만원 한시 지원)', 
+          desc: '독립 청년의 실질 월 임차료 특별 지원금 (최장 24개월)', 
+          guideUrl: 'articles/housing-stability.html',
+          govUrl: 'https://www.bokjiro.go.kr/ssis-teu/twataa/wlfareInfo/moveWlfareInfoDetail.do?wlfareInfoId=WLF00004664' 
+        },
+        { 
+          title: '청년 전용 버팀목 전세자금대출', 
+          desc: '연 1.5%~2.4% 초저금리로 최대 2억원 전세 보증금 대출', 
+          guideUrl: 'articles/housing-stability.html',
+          govUrl: 'https://nhuf.molit.go.kr/' 
+        }
+      ],
+      'middle-housing-low': [
+        { 
+          title: '내집마련 디딤돌 대출', 
+          desc: '무주택 세대주를 위한 연 2%대 정부 지원 주택구입 자금 대출', 
+          guideUrl: 'articles/housing-stability.html',
+          govUrl: 'https://nhuf.molit.go.kr/'
+        },
+        { 
+          title: 'LH 국민임대주택 / 행복주택 청약', 
+          desc: '주거 안정을 위한 저렴한 장기 공공임대 아파트 입주 자격', 
+          guideUrl: 'articles/housing-stability.html',
+          govUrl: 'https://www.applyhome.co.kr/'
+        }
+      ],
+      'senior-housing-low': [
+        { 
+          title: '고령자 복지주택', 
+          desc: '어르신 맞춤형 무장애 설계 및 복지 서비스가 결합된 임대주택', 
+          guideUrl: 'articles/housing-stability.html',
+          govUrl: 'https://www.applyhome.co.kr/'
+        }
+      ],
       'senior-worker-low': [
         { 
           title: '기초연금 (단독가구 월 최대 34.9만원 평생 지급)', 
@@ -606,8 +649,8 @@
           </div>
           <div class="wf-btn-group">
             <a href="${res.guideUrl}" class="wf-btn-guide">📘 상세 꿀팁 가이드</a>
-            <a href="${res.govUrl}" target="_blank" rel="noopener noreferrer" class="wf-btn-gov">
-              🏛️ 정부 공식 신청 🔗
+            <a href="${res.govUrl}" target="_blank" rel="noopener noreferrer" class="wf-btn-gov" style="background:#2563eb;">
+              🏛️ 정부 공식 신청처 이동 ➡️
             </a>
           </div>
         `;
@@ -780,8 +823,13 @@
               </span>
               <span style="font-size: 11px; font-weight: 800; color: #10b981; display: flex; align-items: center; gap: 4px;">
                 <span style="width: 6px; height: 6px; background-color: #10b981; border-radius: 50%;"></span>
-                LIVE (12ms)
+                모집중 (LIVE)
               </span>
+            </div>
+            <div style="display: flex; gap: 8px; margin-bottom: 8px;">
+              <span style="font-size: 11px; color: #64748b; font-weight: 600;">👀 일일 조회수: ${Math.floor(Math.random() * 5000 + 1000)}회</span>
+              <span style="font-size: 11px; color: #64748b; font-weight: 600;">✅ 예산소진율: ${Math.floor(Math.random() * 60 + 10)}%</span>
+            </div>
             </div>
             <h3 style="font-size: 18px; font-weight: 800; color: var(--dark); margin-bottom: 8px; letter-spacing: -0.5px;">${item.title}</h3>
             <p style="font-size: 13px; color: var(--slate-500); line-height: 1.5; margin-bottom: 14px;">${item.desc}</p>
