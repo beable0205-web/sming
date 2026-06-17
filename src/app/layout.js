@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Script from "next/script";
+import ThemeToggle from "../components/ThemeToggle";
 import "./globals.css";
 
 export const metadata = {
@@ -54,7 +55,10 @@ export default function RootLayout({ children }) {
                 <li><Link href="/about/">소개</Link></li>
               </ul>
             </nav>
-            <Link href="/#finder" className="nav-btn">지금 시작하기</Link>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+              <Link href="/#finder" className="nav-btn">지금 시작하기</Link>
+              <ThemeToggle />
+            </div>
           </div>
         </header>
 

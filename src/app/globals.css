@@ -23,6 +23,108 @@
   --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+[data-theme='dark'] {
+  --slate-50: #0b0f19;
+  --slate-100: #1e293b;
+  --slate-300: #334155;
+  --slate-500: #94a3b8;
+  --slate-700: #cbd5e1;
+  --slate-800: #f1f5f9;
+  --dark: #f8fafc;
+  background-color: #0b0f19;
+  color: #f8fafc;
+}
+
+[data-theme='dark'] .api-res-card,
+[data-theme='dark'] .article-card,
+[data-theme='dark'] .wf-card {
+  background-color: #111827 !important;
+  border-color: #1f2937 !important;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2) !important;
+}
+
+[data-theme='dark'] header {
+  background: rgba(11, 15, 25, 0.8) !important;
+  border-bottom: 1px solid #1f2937;
+}
+
+[data-theme='dark'] header nav ul li a:hover {
+  color: #3b82f6 !important;
+}
+
+[data-theme='dark'] .note-box {
+  background: #1e293b !important;
+  border-color: #3b82f6 !important;
+  color: #e2e8f0 !important;
+}
+
+[data-theme='dark'] .api-search-bar-wrapper {
+  background: #111827 !important;
+  border-color: #1f2937 !important;
+}
+
+[data-theme='dark'] #api-search-input {
+  background: #1e293b !important;
+  border-color: #334155 !important;
+  color: #f8fafc !important;
+}
+
+[data-theme='dark'] .api-tag-btn {
+  background: #1e293b !important;
+  border-color: #334155 !important;
+  color: #cbd5e1 !important;
+}
+
+[data-theme='dark'] .api-tag-btn.active {
+  background: var(--primary) !important;
+  border-color: var(--primary) !important;
+  color: #ffffff !important;
+}
+
+[data-theme='dark'] footer {
+  background: #090d16 !important;
+  border-top: 1px solid #1f2937;
+}
+
+[data-theme='dark'] footer .footer-bottom {
+  background: #05070c !important;
+}
+
+[data-theme='dark'] .wf-card-item {
+  background: #1e293b !important;
+  border-color: #334155 !important;
+}
+
+[data-theme='dark'] .wf-option-btn {
+  background: #1e293b !important;
+  border-color: #334155 !important;
+}
+
+[data-theme='dark'] .wf-option-btn:hover {
+  border-color: var(--primary) !important;
+  background: #243249 !important;
+}
+
+[data-theme='dark'] .wf-option-btn.selected {
+  background: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+
+/* Smooth Fade-in animation for steps */
+.wf-step {
+  display: none;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.wf-step.active {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
 /* Global Reset */
 * {
   box-sizing: border-box;
