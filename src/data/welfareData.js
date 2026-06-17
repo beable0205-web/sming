@@ -1,0 +1,304 @@
+export const resultDatabase = {
+  'youth-worker-low': [
+    { 
+      title: '청년도약계좌 (월 70만원 저축 ➡️ 5천만원 목돈)', 
+      desc: '정부 기여금 및 비과세 혜택 제공 청년 맞춤 적금 통장', 
+      guideUrl: '/articles/youth-leap/',
+      govUrl: 'https://ylaccount.kinfa.or.kr/'
+    },
+    { 
+      title: '청년 월세 특별지원 (월 20만원 지원)', 
+      desc: '만 19~34세 독립 청년의 실질 월 임차료 특별 지원금 (최장 24개월)', 
+      guideUrl: '/articles/youth-rent/',
+      govUrl: 'https://www.bokjiro.go.kr/ssis-teu/twataa/wlfareInfo/moveWlfareInfoDetail.do?wlfareInfoId=WLF00004664'
+    },
+    {
+      title: '국민취업지원제도 (구직촉진수당 월 50~90만원)',
+      desc: '취업을 준비하는 청년 구직자 대상 맞춤 고용 지원금 및 무료 직업 훈련',
+      guideUrl: '/articles/employment-support/',
+      govUrl: 'https://www.kua.go.kr'
+    }
+  ],
+  'youth-worker-mid': [
+    { 
+      title: '청년도약계좌 (월 70만원 저축 ➡️ 5천만원 목돈)', 
+      desc: '정부 기여금 및 비과세 혜택을 주는 청년 적금', 
+      guideUrl: '/articles/youth-leap/',
+      govUrl: 'https://ylaccount.kinfa.or.kr/'
+    },
+    {
+      title: '국민취업지원제도 (Ⅱ유형 무료 취업 패키지)',
+      desc: '소득 기준 상관없이 청년층 무료 직업 훈련 및 참여 수당 월 최대 28.4만원 지원',
+      guideUrl: '/articles/employment-support/',
+      govUrl: 'https://www.kua.go.kr'
+    }
+  ],
+  'youth-business-low': [
+    { 
+      title: '소상공인 정책자금 지원 (초저금리 대출)', 
+      desc: '청년 사업자 우대 금리가 지원되는 정부 대리 대출 자금', 
+      guideUrl: '/articles/smallbiz-loan/',
+      govUrl: 'https://ols.semas.or.kr'
+    },
+    { 
+      title: '예비 청년 창업 패키지 (최대 5,000만원 무상)', 
+      desc: '사업화 자금, 멘토링, 마케팅 지원을 포함한 원스톱 창업 패키지', 
+      guideUrl: '/articles/youth-rent/',
+      govUrl: 'https://www.k-startup.go.kr'
+    }
+  ],
+  'middle-worker-low': [
+    { 
+      title: '근로장려금 (가구당 최대 330만원 수령)', 
+      desc: '열심히 일하는 서민층을 위한 소득 지원형 환급 제도 (2026년 기준)', 
+      guideUrl: '/articles/earned-income/',
+      govUrl: 'https://www.hometax.go.kr'
+    },
+    {
+      title: '연말정산 세액공제 & 소득공제 (13월의 보너스)',
+      desc: '월세 세액공제 최대 17%, 연금계좌 납입액 최대 16.5% 전액 환급',
+      guideUrl: '/articles/tax-deduction/',
+      govUrl: 'https://www.hometax.go.kr'
+    }
+  ],
+  'middle-worker-mid': [
+    {
+      title: '연말정산 세액공제 & 소득공제 (13월의 보너스)',
+      desc: '총급여 7천만원 이하 월세 공제 최대 17%, 연금저축/IRP 연 900만원 한도 환급',
+      guideUrl: '/articles/tax-deduction/',
+      govUrl: 'https://www.hometax.go.kr'
+    }
+  ],
+  'parent-low': [
+    { 
+      title: '아동수당 및 부모급여 (0세 아동 가구 월 100만원)', 
+      desc: '가정 양육 부담 경감을 위한 정부 양육 지원 현금성 수당', 
+      guideUrl: '/articles/parent-subsidy/',
+      govUrl: 'https://www.bokjiro.go.kr/ssis-teu/twataa/wlfareInfo/moveWlfareInfoDetail.do?wlfareInfoId=WLF00004505'
+    },
+    { 
+      title: '자녀 장려금 (아동 1인당 최대 100만원 환급)', 
+      desc: '저소득 가구의 육아 부담을 줄이기 위한 현금 환급 지원금', 
+      guideUrl: '/articles/earned-income/',
+      govUrl: 'https://www.hometax.go.kr'
+    }
+  ],
+  'youth-housing-low': [
+    { 
+      title: '청년 월세 특별지원 (월 20만원 한시 지원)', 
+      desc: '독립 청년의 실질 월 임차료 특별 지원금 (최장 24개월)', 
+      guideUrl: '/articles/housing-stability/',
+      govUrl: 'https://www.bokjiro.go.kr/ssis-teu/twataa/wlfareInfo/moveWlfareInfoDetail.do?wlfareInfoId=WLF00004664'
+    },
+    { 
+      title: '청년 전용 버팀목 전세자금대출', 
+      desc: '연 1.5%~2.4% 초저금리로 최대 2억원 전세 보증금 대출', 
+      guideUrl: '/articles/housing-stability/',
+      govUrl: 'https://nhuf.molit.go.kr/'
+    }
+  ],
+  'middle-housing-low': [
+    { 
+      title: '내집마련 디딤돌 대출', 
+      desc: '무주택 세대주를 위한 연 2%대 정부 지원 주택구입 자금 대출', 
+      guideUrl: '/articles/housing-stability/',
+      govUrl: 'https://nhuf.molit.go.kr/'
+    },
+    { 
+      title: 'LH 국민임대주택 / 행복주택 청약', 
+      desc: '주거 안정을 위한 저렴한 장기 공공임대 아파트 입주 자격', 
+      guideUrl: '/articles/housing-stability/',
+      govUrl: 'https://www.applyhome.co.kr/'
+    }
+  ],
+  'senior-housing-low': [
+    { 
+      title: '고령자 복지주택', 
+      desc: '어르신 맞춤형 무장애 설계 및 복지 서비스가 결합된 임대주택', 
+      guideUrl: '/articles/housing-stability/',
+      govUrl: 'https://www.applyhome.co.kr/'
+    }
+  ],
+  'senior-worker-low': [
+    { 
+      title: '기초연금 (단독가구 월 최대 34.9만원 평생 지급)', 
+      desc: '만 65세 이상 소득인정액 기준 하위 70% 대상 2026 개정 연금', 
+      guideUrl: '/articles/basic-pension/',
+      govUrl: 'https://www.bokjiro.go.kr/ssis-teu/twataa/wlfareInfo/moveWlfareInfoDetail.do?wlfareInfoId=WLF00001131'
+    },
+    { 
+      title: '노인일자리 및 사회활동 지원사업 (월 최대 76만원 상당)', 
+      desc: '신체 건강한 액티브 실버 세대를 위한 맞춤형 사회적 시니어 일자리', 
+      guideUrl: '/articles/senior-job/',
+      govUrl: 'https://www.seniorro.or.kr'
+    },
+    { 
+      title: '시니어인턴십 (만 60세 이상 민간 일자리)', 
+      desc: '정부가 기업에 고용 보조금을 지원하여 어르신 정규직 전환을 돕는 장기 고용 혜택', 
+      guideUrl: '/articles/senior-internship/',
+      govUrl: 'https://www.kordi.or.kr'
+    }
+  ],
+  'senior-worker-mid': [
+    { 
+      title: '기초연금 (단독가구 소득인정액 247만원 이하 대상)', 
+      desc: '소득 하위 70% 부부가구 기준 월 최대 55.9만원 평생 지원 (2026 개정)', 
+      guideUrl: '/articles/basic-pension/',
+      govUrl: 'https://www.bokjiro.go.kr/ssis-teu/twataa/wlfareInfo/moveWlfareInfoDetail.do?wlfareInfoId=WLF00001131'
+    },
+    { 
+      title: '시니어인턴십 (만 60세 이상 일자리 기회)', 
+      desc: '경력과 연륜이 풍부한 장년층 어르신들에게 지속 가능한 민간 일자리를 매칭', 
+      guideUrl: '/articles/senior-internship/',
+      govUrl: 'https://www.kordi.or.kr'
+    }
+  ],
+  'senior-business-low': [
+    { 
+      title: '기초연금 (소상공인 및 개인사업자 혜택)', 
+      desc: '사업소득 기본공제(기본 115만원+30%)가 적용되는 어르신 연금', 
+      guideUrl: '/articles/basic-pension/',
+      govUrl: 'https://www.bokjiro.go.kr/ssis-teu/twataa/wlfareInfo/moveWlfareInfoDetail.do?wlfareInfoId=WLF00001131'
+    },
+    { 
+      title: '노인일자리 지원사업 (시니어 카페 및 공동 작업장형)', 
+      desc: '만 60세 이상 자영업자 및 어르신 참여 가능한 소득 창출형 사업', 
+      guideUrl: '/articles/senior-job/',
+      govUrl: 'https://www.seniorro.or.kr'
+    },
+    { 
+      title: '시니어인턴십 (만 60세 이상 소상공인 연계 일자리)', 
+      desc: '정부 보조금을 지원하는 장년층 민간 기업 취업 프로그램', 
+      guideUrl: '/articles/senior-internship/',
+      govUrl: 'https://www.kordi.or.kr'
+    }
+  ],
+  'senior-parent-low': [
+    { 
+      title: '기초연금 (만 65세 이상 평생 연금 지원)', 
+      desc: '가구의 재산과 소득인정액 기준 충족 시 매달 현금 지급', 
+      guideUrl: '/articles/basic-pension/',
+      govUrl: 'https://www.bokjiro.go.kr/ssis-teu/twataa/wlfareInfo/moveWlfareInfoDetail.do?wlfareInfoId=WLF00001131'
+    }
+  ]
+};
+
+export const apiDatabase = [
+  {
+    title: '청년도약계좌',
+    desc: '만 19~34세 청년들의 중장기 자산형성을 지원하기 위한 정부 매칭형 비과세 적금 상품 (5년 만기 시 최대 5천만 원 형성)',
+    category: 'youth',
+    budget: '월 최대 70만 원 납입 (정부 기여금 최대 6%)',
+    apiSource: '행정안전부 보조금24 API',
+    guideUrl: '/articles/youth-leap/',
+    govUrl: 'https://ylaccount.kinfa.or.kr/'
+  },
+  {
+    title: '청년 월세 특별지원',
+    desc: '부모와 별도로 거주하는 저소득 청년의 주거비 부담 경감을 위해 실제 납부하는 월세를 한시적으로 지원하는 정책 (2026년 청약통장 의무화 삭제)',
+    category: 'youth',
+    budget: '매월 20만 원씩 최장 24개월간 최대 480만 원',
+    apiSource: '보건복지부 복지로 Open API',
+    guideUrl: '/articles/youth-rent/',
+    govUrl: 'https://www.bokjiro.go.kr/ssis-teu/twataa/wlfareInfo/moveWlfareInfoDetail.do?wlfareInfoId=WLF00004664'
+  },
+  {
+    title: '국민취업지원제도 (Ⅰ유형 및 Ⅱ유형)',
+    desc: '취업을 원하는 청년 및 구직자에게 종합적인 취업지원 서비스를 제공하고 저소득 구직자에게는 생계 안정을 위한 수당을 지급하는 고용 복지 정책',
+    category: 'youth',
+    budget: '구직촉진수당 월 50만~90만 원씩 6개월 (최대 540만 원)',
+    apiSource: '고용노동부 워크넷 Open API',
+    guideUrl: '/articles/employment-support/',
+    govUrl: 'https://www.kua.go.kr'
+  },
+  {
+    title: '기초연금',
+    desc: '만 65세 이상 어르신 중 소득인정액이 선정기준액 이하인 분들에게 평생 안정적인 현금 연금을 지급하는 노후 소득 보장 제도 (2026 수치 반영)',
+    category: 'senior',
+    budget: '단독가구 월 최대 34.9만 원 / 부부가구 월 최대 55.9만 원',
+    apiSource: '보건복지부 복지로 Open API',
+    guideUrl: '/articles/basic-pension/',
+    govUrl: 'https://www.bokjiro.go.kr/ssis-teu/twataa/wlfareInfo/moveWlfareInfoDetail.do?wlfareInfoId=WLF00001131'
+  },
+  {
+    title: '노인일자리 및 사회활동 지원사업',
+    desc: '어르신이 활기차고 건강한 노후생활을 영위할 수 있도록 다양한 일자리(공익활동형, 사회서비스형, 시장형 등)와 사회참여 기회를 제공하는 보건복지부 사업',
+    category: 'senior',
+    budget: '활동유형에 따라 월 최대 29만 원 ~ 76만 원 이상 지급',
+    apiSource: '한국노인인력개발원 고용 API',
+    guideUrl: '/articles/senior-job/',
+    govUrl: 'https://www.seniorro.or.kr'
+  },
+  {
+    title: '시니어인턴십',
+    desc: '만 60세 이상 어르신들에게 지속 가능한 민간 기업의 일자리를 연계하고, 채용한 기업에는 보조금을 매칭하여 시니어의 고용을 장려하는 상생 고용 프로그램',
+    category: 'senior',
+    budget: '정부 보조금 기업당 월 최대 40만 원 (최장 6개월 240만 원)',
+    apiSource: '한국노인인력개발원 고용 API',
+    guideUrl: '/articles/senior-internship/',
+    govUrl: 'https://www.kordi.or.kr'
+  },
+  {
+    title: '근로장려금 및 자녀장려금',
+    desc: '일은 하지만 소득이 적어 생활이 어려운 저소득 가구에 대해 현금 장려금을 지급함으로써 근로를 장려하고 실질 소득을 지원하는 세제 혜택 (2026 요건 개정)',
+    category: 'worker',
+    budget: '근로장려금 최대 330만 원 / 자녀장려금 자녀 1명당 최대 100만 원',
+    apiSource: '국세청 홈택스 Open API',
+    guideUrl: '/articles/earned-income/',
+    govUrl: 'https://www.hometax.go.kr'
+  },
+  {
+    title: '연말정산 주택 월세 세액공제',
+    desc: '무주택 세대주로서 총급여액 7,000만 원 이하인 근로소득자가 납부한 월세액의 일부를 연말정산 시 종합소득산출세액에서 전액 직접 차감하여 환급해 주는 절세 제도',
+    category: 'worker',
+    budget: '연간 월세 납부 한도 750만 원 내 최대 17% (최대 127.5만 원 환급)',
+    apiSource: '국세청 홈택스 Open API',
+    guideUrl: '/articles/tax-deduction/',
+    govUrl: 'https://www.hometax.go.kr'
+  },
+  {
+    title: '연금저축 및 개인형퇴직연금(IRP) 공제',
+    desc: '근로자의 든든한 노후 준비와 동시에 연말정산 시 강력한 세액 환급을 유도하는 세액공제 혜택 상품 (납입 한도 합산 연 900만 원)',
+    category: 'worker',
+    budget: '납입 한도액 연 900만 원 범위 내 최대 16.5% (최대 148.5만 원 환급)',
+    apiSource: '국세청 홈택스 Open API',
+    guideUrl: '/articles/tax-deduction/',
+    govUrl: 'https://www.hometax.go.kr'
+  },
+  {
+    title: '소상공인 정책자금 초저금리 대출',
+    desc: '고금리와 불경기 속에서 어려움을 겪는 소상공인과 자영업자들을 위해 정부와 소상공인시장진흥공단에서 연 2%대의 낮은 금리로 지원하는 경영안정 및 경영애로 자금 대출',
+    category: 'business',
+    budget: '기업당 최대 7,000만 원 ~ 1억 원 내외 (연 2%대 초반 우대금리)',
+    apiSource: '소상공인시장진흥공단 정책자금 API',
+    guideUrl: '/articles/smallbiz-loan/',
+    govUrl: 'https://ols.semas.or.kr'
+  },
+  {
+    title: '부모급여',
+    desc: '자녀를 양육하는 부모의 경제적 부담을 덜어주기 위해 만 0세 및 만 1세 아동을 키우는 가구에 매월 직간접 현금성 수당을 정액 지급하는 보편적 아동 육아 복지',
+    category: 'parent',
+    budget: '만 0세 아동 월 100만 원 / 만 1세 아동 월 50만 원 무상 평생 지급',
+    apiSource: '보건복지부 복지로 Open API',
+    guideUrl: '/articles/parent-subsidy/',
+    govUrl: 'https://www.bokjiro.go.kr/ssis-teu/twataa/wlfareInfo/moveWlfareInfoDetail.do?wlfareInfoId=WLF00004505'
+  },
+  {
+    title: '아동수당',
+    desc: '대한민국 국적을 가진 만 8세 미만의 모든 아동에게 부모의 소득이나 재산 기준에 상관없이 보편적으로 매달 현금을 직접 지원하는 아동 복지 제도 (부모급여와 전액 중복 가능)',
+    category: 'parent',
+    budget: '아동 1인당 매월 10만 원 현금 지급 (만 0세는 연 최대 1,320만 원 합산 수령)',
+    apiSource: '보건복지부 복지로 Open API',
+    guideUrl: '/articles/parent-subsidy/',
+    govUrl: 'https://www.bokjiro.go.kr/ssis-teu/twataa/wlfareInfo/moveWlfareInfoDetail.do?wlfareInfoId=WLF00004505'
+  },
+  {
+    title: '소상공인 희망리턴패키지',
+    desc: '폐업 또는 폐업 예정인 소상공인의 신속하고 안전한 폐업 지원 및 취업·재창업 지원을 통해 재기할 수 있도록 돕는 소상공인진흥공단 지원 사업',
+    category: 'business',
+    budget: '점포철거비 평당 8만 원(최대 250만 원), 재기교육 및 전직장려수당 최대 100만 원',
+    apiSource: '소상공인시장진흥공단 정책자금 API',
+    guideUrl: '/articles/smallbiz-loan/',
+    govUrl: 'https://www.sbiz.or.kr/nhrp/main.do'
+  }
+];
