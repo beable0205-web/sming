@@ -1,178 +1,219 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.paradise-hero.com/index.html</loc>
+    <loc>https://www.paradise-hero.com/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/about.html</loc>
-    <changefreq>monthly</changefreq>
+    <loc>https://www.paradise-hero.com/about/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/api-center.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.paradise-hero.com/api-center/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/privacy.html</loc>
-    <changefreq>yearly</changefreq>
+    <loc>https://www.paradise-hero.com/privacy/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/terms.html</loc>
-    <changefreq>yearly</changefreq>
+    <loc>https://www.paradise-hero.com/terms/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/basic-livelihood.html</loc>
+    <loc>https://www.paradise-hero.com/articles/basic-livelihood/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/basic-pension.html</loc>
+    <loc>https://www.paradise-hero.com/articles/basic-pension/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/earned-income.html</loc>
+    <loc>https://www.paradise-hero.com/articles/earned-income/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/emergency-livelihood.html</loc>
+    <loc>https://www.paradise-hero.com/articles/emergency-livelihood/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/employment-support.html</loc>
+    <loc>https://www.paradise-hero.com/articles/employment-support/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/energy-voucher.html</loc>
+    <loc>https://www.paradise-hero.com/articles/energy-voucher/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/farming-return.html</loc>
+    <loc>https://www.paradise-hero.com/articles/farming-return/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/hope-savings.html</loc>
+    <loc>https://www.paradise-hero.com/articles/hope-savings/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/housing-stability.html</loc>
+    <loc>https://www.paradise-hero.com/articles/housing-stability/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/infertility-support.html</loc>
+    <loc>https://www.paradise-hero.com/articles/infertility-support/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/k-pass-transit.html</loc>
+    <loc>https://www.paradise-hero.com/articles/k-pass-transit/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/lifelong-education.html</loc>
+    <loc>https://www.paradise-hero.com/articles/lifelong-education/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/national-pension.html</loc>
+    <loc>https://www.paradise-hero.com/articles/national-pension/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/national-scholarship.html</loc>
+    <loc>https://www.paradise-hero.com/articles/national-scholarship/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/newborn-loan.html</loc>
+    <loc>https://www.paradise-hero.com/articles/newborn-loan/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/parent-subsidy.html</loc>
+    <loc>https://www.paradise-hero.com/articles/parent-subsidy/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/pregnant-eco-food.html</loc>
+    <loc>https://www.paradise-hero.com/articles/pregnant-eco-food/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/senior-emergency-loan.html</loc>
+    <loc>https://www.paradise-hero.com/articles/senior-emergency-loan/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/senior-internship.html</loc>
+    <loc>https://www.paradise-hero.com/articles/senior-internship/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/senior-job.html</loc>
+    <loc>https://www.paradise-hero.com/articles/senior-job/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/smallbiz-freshstart.html</loc>
+    <loc>https://www.paradise-hero.com/articles/smallbiz-freshstart/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/smallbiz-loan.html</loc>
+    <loc>https://www.paradise-hero.com/articles/smallbiz-loan/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/smallbiz-survival.html</loc>
+    <loc>https://www.paradise-hero.com/articles/smallbiz-survival/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/sme-youth-loan.html</loc>
+    <loc>https://www.paradise-hero.com/articles/sme-youth-loan/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/tax-deduction.html</loc>
+    <loc>https://www.paradise-hero.com/articles/tax-deduction/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/unemployment-benefit.html</loc>
+    <loc>https://www.paradise-hero.com/articles/unemployment-benefit/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/youth-dream-housing.html</loc>
+    <loc>https://www.paradise-hero.com/articles/youth-dream-housing/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/youth-leap.html</loc>
+    <loc>https://www.paradise-hero.com/articles/youth-jump-package-2026/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/youth-rent.html</loc>
+    <loc>https://www.paradise-hero.com/articles/youth-leap/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paradise-hero.com/articles/youth-tomorrow.html</loc>
+    <loc>https://www.paradise-hero.com/articles/youth-rent/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.paradise-hero.com/articles/youth-tomorrow/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
 </urlset>

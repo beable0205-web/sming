@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node -e \"const { execSync } = require('child_process'); try { execSync('python scripts/fetch_welfare.py', { stdio: 'inherit' }); } catch (e) { console.error('Welfare sync failed, skipping...'); }\"",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
