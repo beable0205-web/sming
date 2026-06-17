@@ -2,8 +2,9 @@ import os
 import glob
 from datetime import datetime
 
-SITEMAP_PATH = r"d:\report\public\sitemap.xml"
-ARTICLES_DIR = r"d:\report\src\content\articles"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SITEMAP_PATH = os.path.join(BASE_DIR, "public", "sitemap.xml")
+ARTICLES_DIR = os.path.join(BASE_DIR, "src", "content", "articles")
 BASE_URL = "https://www.paradise-hero.com"
 
 def generate_sitemap():

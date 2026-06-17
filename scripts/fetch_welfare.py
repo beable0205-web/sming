@@ -4,7 +4,8 @@ import urllib.request
 import urllib.parse
 
 # 1. 수집 설정
-DEST_PATH = r"d:\report\src\data\welfareData.json"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DEST_PATH = os.path.join(BASE_DIR, "src", "data", "welfareData.json")
 os.makedirs(os.path.dirname(DEST_PATH), exist_ok=True)
 
 # 2. 기본 데이터베이스 (API 수집 실패 시 또는 API Key 미지정 시 사용할 고품질 Fallback/기본 데이터)

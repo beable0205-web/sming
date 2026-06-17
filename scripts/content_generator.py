@@ -7,8 +7,9 @@ from datetime import datetime
 import subprocess
 
 # 1. 경로 설정
-ARTICLES_DIR = r"d:\report\src\content\articles"
-UPDATE_SITEMAP_SCRIPT = r"d:\report\scripts\update_sitemap.py"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ARTICLES_DIR = os.path.join(BASE_DIR, "src", "content", "articles")
+UPDATE_SITEMAP_SCRIPT = os.path.join(BASE_DIR, "scripts", "update_sitemap.py")
 os.makedirs(ARTICLES_DIR, exist_ok=True)
 
 # 2. API 키 검사 (LLM 연동용)
