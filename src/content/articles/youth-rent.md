@@ -1,37 +1,63 @@
 ---
 title: "청년 월세 특별지원 신청 가이드: 월 20만원 지원 조건과 서류 요약"
-seoTitle: "청년 월세 특별지원 신청 가이드 및 자격 요건"
-description: "2026년 대한민국 공공 기관 보도자료 기준 최신 복지 및 지원금 요건 정밀 분석 보고서"
+seoTitle: "2026년 청년 월세 특별지원 신청 가이드 자격 조건 서류 완벽 가이드"
+description: "2026년 청년 월세 특별지원 나이·거주 조건, 원가구·청년가구 소득 기준, 신청 서류, 자주 묻는 질문을 국토교통부 기준으로 총정리했습니다."
 category: "주거/복지 정책"
-author: "박현우 선임 리서처"
-date: "2026. 05. 28"
+author: "K-복지 리서치랩 편집팀"
+date: "2026. 06. 18"
 ---
 
-<p>매달 정기적으로 지출되는 월세는 혼자 사는 청년들에게 가장 큰 경제적 가계 부담 요소입니다. 숨만 쉬어도 나가는 월세 비용 때문에 저축할 여력조차 없는 청년들을 위해, 국토교통부에서는 <strong>매달 최대 20만 원씩 1년(12개월)간 최대 240만 원의 주거비를 무상 지원</strong>해 주는 <strong>「청년 월세 특별지원」</strong> 사업을 시행하고 있습니다.</p>
+<p>매달 정기적으로 지출되는 월세는 혼자 사는 청년들에게 가장 큰 경제적 부담 요소입니다. 국토교통부에서는 <strong>매달 최대 20만 원씩 1년(12개월)간 최대 240만 원의 주거비를 무상 지원</strong>해 주는 <strong>「청년 월세 특별지원」</strong> 사업을 시행하고 있습니다 (2026년 국토교통부 공식 기준).</p>
 
 <div class="note-box">
-<strong>💡 청년 월세 특별지원 핵심 요약 3줄</strong>
+<strong>💡 청년 월세 특별지원 핵심 요약 (국토교통부 기준)</strong>
 <ul>
-<li><strong>지원 내용:</strong> 매달 실제 납부하는 월 임차료 중 <strong>최대 20만 원</strong>씩 최대 <strong>12개월</strong> 동안 본인 통장으로 현금 지급받습니다.</li>
-<li><strong>가장 중요한 기준:</strong> 청년 본인의 소득뿐만 아니라 본가를 포함한 <strong>부모님의 가구 소득(원가구 소득)</strong>까지 함께 심사 요건에 해당하므로 면밀한 계산이 필요합니다.</li>
-<li><strong>신청 방법:</strong> 복지로 공식 모바일 앱 및 거주지 관할 주민센터에서 쉽게 신청하실 수 있습니다.</li>
+<li><strong>지원 내용:</strong> 매달 실제 납부 월세 중 최대 20만 원씩, 최대 12개월 현금 지급</li>
+<li><strong>중요 조건:</strong> 청년 본인 소득 외 부모님 가구 소득(원가구 소득)도 함께 심사</li>
+<li><strong>신청처:</strong> 복지로 앱·홈페이지(bokjiro.go.kr) 또는 관할 주민센터</li>
 </ul>
 </div>
 
-<h2>1. 청년 월세 특별지원 자격 요건</h2>
-<p>청구 자격을 얻기 위해서는 <strong>나이, 거주 형태, 그리고 소득 및 재산</strong> 기준을 모두 만족해야 합니다.</p>
+<h2>1. 청년 월세 특별지원 자격 요건 상세</h2>
 
 <h3>① 연령 및 거주 조건</h3>
-<p>신청일 기준 <strong>만 19세 ~ 34세</strong> 이하의 부모님과 별도로 거주하는 독립 청년이 대상입니다. 임차보증금 <strong>5,000만 원 이하</strong> 및 월세 <strong>70만 원 이하</strong>인 주택에 거주해야 가입이 가능합니다.</p>
-
-<h3>② 소득 및 재산 기준 (원가구 vs 청년 가구)</h3>
-<p>본 혜택의 소득 기준은 청년 본인 가구와 본가를 포함한 원가구 소득을 동시에 조회합니다. 단, 만 30세 이상이거나, 혼인했거나, 부모님과 생계를 달리하여 본인 소득이 중위소득 50% 이상인 경우 부모 가구 소득(원가구) 조사는 전면 면제됩니다.</p>
 
 <div class="custom-table-wrapper">
 <table class="custom-table">
 <thead>
 <tr>
-<th>가구 구성원 수</th>
+<th>조건 항목</th>
+<th>기준</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>나이</strong></td>
+<td>신청일 기준 만 19세~34세 이하 (병역 이행자는 복무 기간 연장)</td>
+</tr>
+<tr>
+<td><strong>거주 조건</strong></td>
+<td>부모님과 별도 거주 독립 청년</td>
+</tr>
+<tr>
+<td><strong>주택 요건</strong></td>
+<td>임차보증금 5,000만 원 이하, 월세 70만 원 이하 주택</td>
+</tr>
+<tr>
+<td><strong>주택 종류</strong></td>
+<td>주택(아파트·다가구·원룸 등) / 고시원·기숙사 등 제외</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h3>② 소득·재산 기준 (원가구 + 청년 가구 동시 심사)</h3>
+
+<div class="custom-table-wrapper">
+<table class="custom-table">
+<thead>
+<tr>
+<th>가구원 수</th>
 <th>원가구 소득 기준 (중위 100%)</th>
 <th>청년 가구 소득 기준 (중위 60%)</th>
 </tr>
@@ -60,20 +86,68 @@ date: "2026. 05. 28"
 </tbody>
 </table>
 </div>
+<p style="font-size: 14px; color: #64748b; margin-bottom: 24px;">※ 위 기준은 2026년 국토교통부 공식 기준입니다. 만 30세 이상이거나 혼인했거나 본인 소득이 중위소득 50% 이상인 경우 원가구(부모) 소득 조사가 면제됩니다.</p>
 
-<h2>2. 필수 준비물 및 구비 서류 목록</h2>
-<p>인터넷(복지로) 신청 전 아래의 서류들을 미리 스마트폰 카메라로 선명하게 촬영하거나 PDF 파일로 받아 두시면 5분 만에 신청을 완료할 수 있습니다.</p>
-
-<ul>
-<li><strong>임대차계약서 사본:</strong> 본인 명의로 작성된 계약서 전체 페이지 (확정일자 날인본 권장)</li>
-<li><strong>월세 이체 증빙서류:</strong> 최근 3개월간 집주인 통장으로 월세를 송금한 내역서 (이체 확인증 등)</li>
-<li><strong>통장 사본:</strong> 지원금을 입금받을 청년 본인 명의의 통장 사본</li>
-<li><strong>가족관계증명서:</strong> 본인 기준 및 부모님 기준의 상세 증명서 (가족관계 및 가구 소득 파악용)</li>
+<h2>2. 원가구 소득 조사 면제 요건</h2>
+<p style="margin-bottom: 16px;">다음 중 하나에 해당하는 경우 부모님 가구 소득(원가구) 조사가 면제됩니다:</p>
+<ul style="margin-bottom: 24px; padding-left: 20px; line-height: 2;">
+<li>신청일 기준 <strong>만 30세 이상</strong>인 경우</li>
+<li><strong>혼인 상태</strong>인 경우 (사실혼 포함)</li>
+<li>부모님과 생계를 달리하여 <strong>본인 소득이 중위소득 50% 이상</strong>인 경우</li>
+<li><strong>부양의무자가 없는</strong> 경우</li>
 </ul>
 
-<h2>3. 청년 월세 특별지원 온라인 신청 방법</h2>
-<p>스마트폰 복지로 앱이나 PC를 통해 관공서 방문 없이 비대면으로 간편하게 신청하는 법입니다.</p>
-<p>복지로 공식 웹사이트에 로그인 후, <strong>'서비스 신청' ➡️ '복지서비스 신청' ➡️ '청년' ➡️ '청년월세특별지원'</strong>을 선택하여 준비한 서류를 업로드하고 정보를 기입하면 심사 후 결과를 개별 문자메시지로 받으실 수 있습니다.</p>
+<h2>3. 재산 기준</h2>
+<ul style="margin-bottom: 24px; padding-left: 20px; line-height: 2;">
+<li><strong>청년 가구 재산:</strong> 1억 2,200만 원 이하</li>
+<li><strong>원가구 재산:</strong> 4억 7,000만 원 이하</li>
+</ul>
+
+<h2>4. 신청 서류 체크리스트</h2>
+<ul style="margin-bottom: 24px; padding-left: 20px; line-height: 2;">
+<li>✅ <strong>임대차계약서 사본</strong> (본인 명의, 전체 페이지)</li>
+<li>✅ <strong>월세 이체 확인서</strong> (최근 3개월 이상 이체 내역)</li>
+<li>✅ <strong>통장 사본</strong> (지원금 수령 계좌)</li>
+<li>✅ <strong>가족관계증명서</strong> (본인 기준 및 부모님 기준)</li>
+<li>✅ <strong>주민등록등본</strong></li>
+<li>✅ <strong>건강보험료 납부확인서</strong> (소득 확인용)</li>
+<li>✅ <strong>신분증</strong></li>
+</ul>
+
+<h2>5. 온라인 신청 방법</h2>
+<p style="margin-bottom: 24px;">복지로 공식 웹사이트(bokjiro.go.kr) 또는 스마트폰 복지로 앱에서 로그인 후 <strong>'서비스 신청' → '복지서비스 신청' → '청년' → '청년월세특별지원'</strong>을 선택하여 서류를 업로드하고 정보를 입력하면 됩니다. 심사 결과는 개별 문자메시지로 통보됩니다. 주민센터 방문 신청도 가능합니다.</p>
+
+<div class="note-box" style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0;">
+<strong>⚠️ 주의사항:</strong>
+<ul>
+<li>지원금은 현금으로 청년 본인 계좌에 지급되며, 이를 임대인에게 지급하는 방식은 아닙니다.</li>
+<li>지원 기간 중 소득·거주지 등 자격 요건이 변경되면 신고 의무가 있습니다.</li>
+<li>예산 소진 시 신청이 조기 종료될 수 있으므로 빠르게 접수하세요.</li>
+</ul>
+</div>
+
+<div class="expert-analysis" style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 24px; margin: 40px 0; border-radius: 0 16px 16px 0;">
+<h3 style="font-size: 18px; font-weight: 800; color: #1e293b; margin-bottom: 16px;">💡 [K-복지 리서치랩] 청년 월세 지원 활용 팁</h3>
+<p style="font-size: 15px; color: #475569; line-height: 1.8; margin-bottom: 12px;">청년 월세 특별지원의 핵심은 부모님 소득(원가구)이 함께 심사된다는 점입니다. 만 30세 미만이라면 부모님 소득이 기준을 초과하면 지원받지 못할 수 있으므로, 사전에 복지로 모의계산 서비스로 자격 여부를 확인하는 것이 좋습니다 (국토교통부 공식 안내 기준).</p>
+<p style="font-size: 15px; color: #475569; line-height: 1.8; margin-bottom: 12px;">월세 외에 더 안정적인 주거를 원한다면 <a href="/articles/housing-stability/">청년 버팀목 전세 대출</a>도 검토해 보세요. 전세로 이사하면 월 20만 원보다 훨씬 큰 주거비 절감 효과를 누릴 수 있습니다.</p>
+</div>
+
+<h2>❓ 자주 묻는 질문 (FAQ)</h2>
+
+<div style="margin-bottom: 20px; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px;">
+<h3 style="font-size: 16px; font-weight: 700; color: #1e40af; margin-bottom: 8px;">Q1. 연 계약이 아닌 월 단위 계약(구두 계약)도 신청할 수 있나요?</h3>
+<p style="color: #334155; margin: 0;">A. 임대차계약서가 있어야 하며 구두 계약은 신청이 어렵습니다. 계약서를 작성하고 확정일자를 받는 것이 지원 신청과 전세 보증금 보호 측면에서 모두 유리합니다.</p>
+</div>
+
+<div style="margin-bottom: 20px; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px;">
+<h3 style="font-size: 16px; font-weight: 700; color: #1e40af; margin-bottom: 8px;">Q2. 이미 국민취업지원제도 수당을 받고 있는데 중복으로 받을 수 있나요?</h3>
+<p style="color: #334155; margin: 0;">A. 청년 월세 특별지원은 주거 지원 성격이므로 국민취업지원제도 구직촉진수당과의 중복 수령이 가능한지 복지로 또는 주민센터에 사전 확인하는 것이 좋습니다. 지원 목적이 다르더라도 일부 지원 금액에 따라 제한이 생길 수 있습니다.</p>
+</div>
+
+<div style="margin-bottom: 20px; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px;">
+<h3 style="font-size: 16px; font-weight: 700; color: #1e40af; margin-bottom: 8px;">Q3. 고시원이나 쉐어하우스 거주자도 신청할 수 있나요?</h3>
+<p style="color: #334155; margin: 0;">A. 원칙적으로 주택(주거용 건물)을 기준으로 하며, 고시원·기숙사·쉐어하우스(공유 주택)는 별도 확인이 필요합니다. 복지로 또는 주민센터에 거주 형태를 안내하고 신청 가능 여부를 확인하세요.</p>
+</div>
 
 <div class="gov-link-block">
 <p>🏛️ 보건복지부 공식 복지포털 복지로에서 지금 즉시 주거 안정 보조금을 신청하세요.</p>

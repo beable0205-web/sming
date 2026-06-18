@@ -47,8 +47,78 @@ export default async function ArticleDetail({ params }) {
     notFound();
   }
 
+  // ─── Schema.org JSON-LD: Article ───────────────────────────────────────
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": article.title,
+    "description": article.description || "",
+    "author": {
+      "@type": "Organization",
+      "name": article.author || "K-복지 리서치랩 편집팀"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "K-복지 리서치랩",
+      "url": "https://www.paradise-hero.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.paradise-hero.com/logo.png"
+      }
+    },
+    "datePublished": article.date || "2026-06-18",
+    "dateModified": article.date || "2026-06-18",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://www.paradise-hero.com/articles/${slug}/`
+    },
+    "url": `https://www.paradise-hero.com/articles/${slug}/`,
+    "inLanguage": "ko-KR",
+    "about": {
+      "@type": "Thing",
+      "name": article.category || "복지정책"
+    }
+  };
+
+  // ─── Schema.org JSON-LD: FAQPage ───────────────────────────────────────
+  // contentHtml에서 Q/A 패턴을 파싱하여 동적 구성
+  const faqMatches = [];
+  if (article.contentHtml) {
+    const questionPattern = /<h3[^>]*>Q\d*\.\s*([^<]+)<\/h3>\s*<p[^>]*>A\.\s*([^<]+)<\/p>/gi;
+    let match;
+    while ((match = questionPattern.exec(article.contentHtml)) !== null) {
+      faqMatches.push({
+        "@type": "Question",
+        "name": match[1].trim(),
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": match[2].trim()
+        }
+      });
+    }
+  }
+
+  const faqSchema = faqMatches.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqMatches
+  } : null;
+
   return (
     <main className="article-wrapper">
+      {/* Schema.org JSON-LD: Article */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      {/* Schema.org JSON-LD: FAQPage (FAQ가 있는 아티클만 자동 삽입) */}
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
+
       <div className="article-header">
         <span className="cat-badge">{article.category}</span>
         <h1>{article.title}</h1>
