@@ -15,6 +15,9 @@ export default function Home() {
         </div>
         <h1>나에게 꼭 맞는 <span>정부 지원금</span>, <br />헤매지 않고 3초 만에 찾기</h1>
         <p>복잡하고 파편화된 대한민국 정부 복지 혜택과 지원금 정보를 내 상황에 맞춰 모의 자가진단하고, 공식 정부 신청 포털로 직접 연결해 드립니다.</p>
+        <p style={{ fontSize: '13px', color: '#94a3b8', marginTop: '12px', lineHeight: '1.6' }}>
+          ⚠️ 본 서비스는 민간 정보 제공 플랫폼으로, 정부 또는 공공기관의 공식 사이트가 아닙니다. 최종 신청 자격 및 조건은 반드시 각 기관 공식 안내를 통해 직접 확인하시기 바랍니다.
+        </p>
       </section>
 
       {/* Welfare Finder Widget (Client Component) */}
