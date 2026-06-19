@@ -1,199 +1,184 @@
 ---
-title: "2026년 무주택자 내집마련·주거안정 지원 완벽 가이드 (디딤돌·버팀목 비교)"
-seoTitle: "2026년 디딤돌 버팀목 대출 금리 비교 주거안정 지원 가이드"
-description: "2026년 디딤돌 대출과 버팀목 전세자금 금리 비교, DSR 대응 팁, 신청 서류 체크리스트, 청약저축 활용법, FAQ를 국토교통부 기준으로 총정리했습니다."
-category: "주거/부동산"
+title: "디딤돌 vs 버팀목, 내 상황엔 어느 쪽이 맞나? — 2026년 완전 비교"
+seoTitle: "2026년 디딤돌대출 버팀목대출 비교 자격 금리 신청 방법 완벽 가이드"
+description: "2026년 디딤돌대출과 버팀목전세대출의 자격 조건, 금리, 한도, 신청 방법을 직접 비교하고, 내 상황에 맞는 선택 기준을 국토교통부 기준으로 명확하게 제시합니다."
+category: "주거/부동산 정책"
 author: "K-복지 리서치랩 편집팀"
-date: "2026. 06. 18"
+date: "2026. 06. 19"
 ---
 
-<p>치솟는 월세와 집값으로 고통받는 무주택 청년·신혼부부·서민을 위해 국토교통부와 주택도시보증공사(HUG)가 정책 주거 대출을 운영하고 있습니다. 이 가이드에서는 디딤돌 대출(내집마련)과 버팀목 전세자금(전월세 안정)의 세부 조건을 비교하고, DSR 규제 대응 팁과 신청 서류 체크리스트까지 정리해 드립니다.</p>
+<h2>집 살 것인가, 전세 살 것인가 — 그 전에 이 질문부터</h2>
 
-<div class="note-box">
-<strong>💡 2026년 주거안정 핵심 요약 (국토교통부 기준)</strong>
-<ul>
-<li><strong>내집마련 (디딤돌 대출):</strong> 연 2%대 금리, 최대 2.5억 원 (신혼·다자녀 4억 원)</li>
-<li><strong>전세안정 (버팀목 대출):</strong> 연 1.5%~2.7% 금리, 최대 2억~3억 원</li>
-<li><strong>신청처:</strong> 기금e든든(enhuf.molit.go.kr) 또는 주요 시중 은행 영업점</li>
+<p>내 집 마련을 꿈꾸는 분들이 가장 먼저 맞닥뜨리는 고민이 있습니다. "지금 살 것인가, 전세로 더 버틸 것인가?" 이 질문에 답하기 전에, 정부가 두 가지 상황 모두에 대해 <strong>파격적인 저금리 대출 정책</strong>을 운영하고 있다는 사실을 알아야 합니다.</p>
+
+<ul style="padding-left:20px;line-height:2.2;">
+<li><strong>집을 살 계획이라면</strong> → 디딤돌 구입자금 대출</li>
+<li><strong>전세로 살 계획이라면</strong> → 버팀목 전세자금 대출</li>
 </ul>
-</div>
 
-<h2>1. 디딤돌 대출 vs 버팀목 전세자금 한눈에 비교</h2>
+<p>두 상품은 이름도 비슷하고 모두 한국주택금융공사·주택도시기금에서 취급하지만, 자격 조건·금리·한도·대상 주택이 모두 다릅니다. 어느 쪽이 내 상황에 맞는지 정확히 파악하는 것이 첫 번째입니다 (2026년 국토교통부·주택도시기금 공식 기준).</p>
+
+<hr style="margin:40px 0;border:none;border-top:2px solid #e2e8f0;"/>
+
+<h2>📊 디딤돌 vs 버팀목 — 핵심 조건 한눈에 비교</h2>
 
 <div class="custom-table-wrapper">
 <table class="custom-table">
 <thead>
-<tr>
-<th>구분</th>
-<th>디딤돌 대출 (내집마련)</th>
-<th>버팀목 청년 전용</th>
-<th>버팀목 신혼부부 전용</th>
-</tr>
+<tr><th>항목</th><th>디딤돌 구입자금</th><th>버팀목 전세자금</th></tr>
 </thead>
 <tbody>
-<tr>
-<td><strong>대상</strong></td>
-<td>무주택 세대주 (부부합산 소득 6,000만 원 이하)</td>
-<td>만 19~34세 무주택 청년 (연 소득 5,000만 원 이하)</td>
-<td>혼인 7년 이내 신혼부부 (연 소득 7,500만 원 이하)</td>
-</tr>
-<tr>
-<td><strong>대출 한도</strong></td>
-<td>최대 2.5억 원 (신혼·다자녀 4억 원)</td>
-<td>최대 2억 원</td>
-<td>최대 3억 원</td>
-</tr>
-<tr>
-<td><strong>금리 (2026년 기준)</strong></td>
-<td>연 2.45% ~ 3.55%</td>
-<td>연 1.5% ~ 2.1%</td>
-<td>연 1.5% ~ 2.7%</td>
-</tr>
-<tr>
-<td><strong>대상 주택</strong></td>
-<td>평가액 5억 원 이하 주택 구입 시 (신혼 6억 원 이하)</td>
-<td>보증금 3억 원 이하, 전용 85㎡ 이하</td>
-<td>보증금 4억 원 이하, 전용 85㎡ 이하</td>
-</tr>
-<tr>
-<td><strong>대출 비율</strong></td>
-<td>LTV 70% 이내 (생애최초 80%)</td>
-<td>보증금의 80% 이내</td>
-<td>보증금의 80% 이내</td>
-</tr>
-<tr>
-<td><strong>상환 방식</strong></td>
-<td>원금균등, 원리금균등, 체증식 분할 상환</td>
-<td>일시상환 또는 혼합 방식</td>
-<td>일시상환 또는 혼합 방식</td>
-</tr>
+<tr><td><strong>목적</strong></td><td>내 집 마련 (구입)</td><td>전세 보증금 마련</td></tr>
+<tr><td><strong>소득 기준</strong></td><td>부부합산 연 8,500만 원 이하</td><td>부부합산 연 5,000만 원 이하</td></tr>
+<tr><td><strong>대출 한도</strong></td><td>최대 4억 원</td><td>최대 3억 2,000만 원</td></tr>
+<tr><td><strong>금리 (2026년 기준)</strong></td><td>연 2.15%~3.00%</td><td>연 1.8%~2.4%</td></tr>
+<tr><td><strong>대상 주택 가격</strong></td><td>5억 원 이하 주택</td><td>임차 보증금 3억 원 이하</td></tr>
+<tr><td><strong>무주택 조건</strong></td><td>무주택 세대주</td><td>무주택 세대주</td></tr>
+<tr><td><strong>나이 제한</strong></td><td>없음 (특례 상품은 만 39세 이하)</td><td>없음</td></tr>
+<tr><td><strong>상환 방식</strong></td><td>원리금 균등·체증·거치 선택</td><td>일시상환 또는 혼합</td></tr>
 </tbody>
 </table>
 </div>
-<p style="font-size: 14px; color: #64748b; margin-bottom: 24px;">※ 위 금리와 한도는 2026년 국토교통부·주택도시기금 공식 발표 기준입니다. 실제 적용 금리는 소득·신용도·대출 기간에 따라 달라지므로, 기금e든든(enhuf.molit.go.kr)에서 최신 내용을 확인하세요.</p>
+<p style="font-size:14px;color:#64748b;margin-bottom:24px;">※ 2026년 국토교통부·주택도시기금 공식 기준. 금리는 대출 시점과 소득 수준에 따라 변동됩니다.</p>
 
-<h2>2. 내집마련 디딤돌 대출 상세 안내</h2>
+<h3>쉽게 요약하면</h3>
+<p><strong>버팀목이 금리가 더 낮지만</strong>, 소득 기준이 더 엄격하고(5,000만 원 이하) 전세 대상입니다. <strong>디딤돌은 소득 기준이 상대적으로 여유롭고</strong>(8,500만 원) 내 집 마련용입니다. 연봉이 5,000만 원을 초과하면 버팀목은 불가하고 디딤돌만 가능합니다.</p>
 
-<h3>① 신청 자격 요건</h3>
-<p style="margin-bottom: 16px;">부부합산 연 소득 6,000만 원 이하(신혼부부 8,500만 원 이하, 2자녀 이상 7,000만 원 이하)의 무주택 세대주가 주택담보가치 5억 원(신혼 6억 원) 이하의 주택을 구입할 때 신청 가능합니다. 생애 최초 주택 구입자는 LTV가 80%까지 적용되어 더 많은 대출이 가능합니다.</p>
+<hr style="margin:40px 0;border:none;border-top:2px solid #e2e8f0;"/>
 
-<h3>② 금리 구조 (소득·상환 방식별)</h3>
-<div class="custom-table-wrapper">
-<table class="custom-table">
-<thead>
-<tr>
-<th>부부합산 연 소득</th>
-<th>기본 금리 (연)</th>
-<th>우대 조건</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2,000만 원 이하</td>
-<td>연 2.45%</td>
-<td>신혼·다자녀·장애인 우대 적용 시 추가 인하 가능</td>
-</tr>
-<tr>
-<td>2,000만 ~ 4,000만 원</td>
-<td>연 2.75%</td>
-<td>-</td>
-</tr>
-<tr>
-<td>4,000만 ~ 6,000만 원</td>
-<td>연 3.15%</td>
-<td>-</td>
-</tr>
-<tr>
-<td>신혼부부 특례</td>
-<td>연 1.85% ~ 2.70%</td>
-<td>혼인 7년 이내, 자녀 수에 따라 추가 우대</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p style="font-size: 14px; color: #64748b; margin-bottom: 24px;">※ 금리는 2026년 주택도시기금 기준으로, 시장 금리 변동에 따라 조정될 수 있습니다.</p>
+<h2>🏠 디딤돌 대출 심층 분석</h2>
 
-<h2>3. DSR 규제 대응 팁</h2>
-<p style="margin-bottom: 16px;">총부채원리금상환비율(DSR)은 모든 금융권 대출 원리금 상환액이 연 소득의 일정 비율을 초과하지 않도록 규제하는 제도입니다. 2026년 기준 DSR 40% 규제가 적용되며, 이를 초과하면 대출이 제한될 수 있습니다.</p>
-
-<ul style="margin-bottom: 24px; padding-left: 20px; line-height: 2;">
-<li>📌 <strong>기존 대출 정리:</strong> 자동차 할부, 카드론 등 고금리 소액 대출을 미리 상환해 DSR 비율을 낮추세요.</li>
-<li>📌 <strong>상환 기간 연장:</strong> 대출 만기를 길게 설정하면 연간 원리금 상환액이 줄어 DSR 비율에 유리합니다.</li>
-<li>📌 <strong>체증식 분할상환 선택:</strong> 초기에 원리금 부담을 낮추는 체증식 상환 방식을 선택하면 DSR 계산 시 초기 부담이 줄어듭니다.</li>
-<li>📌 <strong>공동 명의 활용:</strong> 부부 공동 명의로 대출 시 맞벌이 합산 소득을 DSR 기준 소득으로 인정받을 수 있습니다.</li>
-</ul>
-
-<div class="note-box" style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 16px; margin: 24px 0;">
-<strong>⚠️ 주의:</strong> 정책 자금 대출(디딤돌·버팀목)은 DSR 산정 방식이 일반 은행 대출과 다를 수 있습니다. 기금e든든 또는 취급 은행 창구에서 DSR 계산 결과를 미리 확인하세요.
-</div>
-
-<h2>4. 신청 서류 체크리스트</h2>
-
-<ul style="margin-bottom: 24px; padding-left: 20px; line-height: 2;">
-<li>✅ <strong>주민등록등본</strong> (발급일 기준 3개월 이내)</li>
-<li>✅ <strong>가족관계증명서</strong> (신혼부부 적용 시 혼인관계증명서 추가)</li>
-<li>✅ <strong>근로소득원천징수영수증</strong> 또는 <strong>소득확인증명서</strong> (국세청 발급)</li>
-<li>✅ <strong>부동산 매매계약서 사본</strong> (디딤돌 대출 신청 시)</li>
-<li>✅ <strong>임대차계약서 사본</strong> (버팀목 대출 신청 시)</li>
-<li>✅ <strong>건강보험료 납부확인서</strong> (소득 산정 보조 자료)</li>
-<li>✅ <strong>무주택 확인서류</strong> (주민등록등본 + 건물등기부등본 제출)</li>
-<li>✅ <strong>재직증명서 또는 사업자등록증</strong> (직장인·자영업자 구분)</li>
-<li>✅ <strong>신용조회 동의서</strong> (대출 심사용)</li>
-</ul>
-
-<h2>5. 공식 신청 방법 (기금e든든·청약홈)</h2>
-<p style="margin-bottom: 16px;">정책 주거 자금 대출은 주택도시기금 공식 누리집인 <strong>기금e든든(enhuf.molit.go.kr)</strong>에서 온라인으로 신청하거나, KB국민·우리·신한·NH농협·IBK기업은행 등 기금 취급 은행 영업점을 방문해 신청할 수 있습니다.</p>
+<h3>금리 구간 — 소득이 낮을수록 금리가 낮습니다</h3>
 
 <div class="custom-table-wrapper">
 <table class="custom-table">
 <thead>
-<tr>
-<th>신청 경로</th>
-<th>특징</th>
-</tr>
+<tr><th>부부합산 연 소득</th><th>금리 (2026년 기준 예시)</th></tr>
 </thead>
 <tbody>
-<tr>
-<td><strong>기금e든든 온라인</strong></td>
-<td>사전 자격 심사, 대출 한도 조회, 신청서 접수 가능</td>
-</tr>
-<tr>
-<td><strong>기금 취급 은행 방문</strong></td>
-<td>서류 제출 및 대면 상담 후 대출 실행, 계약서 원본 지참 필요</td>
-</tr>
-<tr>
-<td><strong>청약홈(applyhome.co.kr)</strong></td>
-<td>공공 분양·임대 청약 신청 (디딤돌과 별개로 청약 자격 관리)</td>
-</tr>
+<tr><td>2,000만 원 이하</td><td>연 2.15%</td></tr>
+<tr><td>2,000만~4,000만 원</td><td>연 2.35%</td></tr>
+<tr><td>4,000만~6,000만 원</td><td>연 2.65%</td></tr>
+<tr><td>6,000만~8,500만 원</td><td>연 3.00%</td></tr>
+</tbody>
+</table>
+</div>
+<p style="font-size:14px;color:#64748b;margin-bottom:24px;">※ 2026년 주택도시기금 기준 예시. 가산금리 조건 등에 따라 변동될 수 있습니다.</p>
+
+<h3>디딤돌 대출에서 자주 발목 잡히는 조건들</h3>
+
+<div style="background:#fef3c7;border-left:4px solid #f59e0b;padding:20px;margin:24px 0;border-radius:0 8px 8px 0;">
+<strong>⚠️ 함정 1 — "대출은 됐는데 LTV 때문에 부족한 경우":</strong> 디딤돌 대출은 주택 가격의 최대 70%(생애 최초 80%)를 대출해줍니다. 5억 원 주택을 매입한다면 LTV 70% 적용 시 3억 5,000만 원이 최대입니다. 나머지 1억 5,000만 원은 자기 자금이 있어야 합니다. 대출 한도 4억 원이 무조건 나오는 것이 아닙니다.
+</div>
+
+<div style="background:#fef3c7;border-left:4px solid #f59e0b;padding:20px;margin:24px 0;border-radius:0 8px 8px 0;">
+<strong>⚠️ 함정 2 — "신청 시점의 주택이 완공 전이면 불가":</strong> 디딤돌 대출은 기존 주택 매입 또는 분양주택 잔금 대출에 사용 가능합니다. 청약 당첨 후 입주 잔금 시점에 맞춰 신청해야 하며, 청약 당첨 직후 바로 실행되는 것이 아닙니다.
+</div>
+
+<h3>디딤돌 + 특례 보금자리론 혼동 주의</h3>
+<p>2023~2024년에 한시적으로 운영된 특례 보금자리론과 디딤돌 대출을 헷갈리는 분이 많습니다. 특례 보금자리론은 소득 제한 없이 9억 원 이하 주택에 적용됐지만, <strong>2026년 현재는 공급이 중단되었거나 축소 운영 중</strong>입니다. 현재 가능한 정책 대출 옵션을 주택도시기금(기금e든든) 홈페이지에서 반드시 최신 정보를 확인하세요.</p>
+
+<hr style="margin:40px 0;border:none;border-top:2px solid #e2e8f0;"/>
+
+<h2>🏡 버팀목 전세자금 대출 심층 분석</h2>
+
+<h3>소득 구간별 금리 — 연 1%대부터 가능합니다</h3>
+
+<div class="custom-table-wrapper">
+<table class="custom-table">
+<thead>
+<tr><th>부부합산 연 소득</th><th>금리 (2026년 기준 예시)</th></tr>
+</thead>
+<tbody>
+<tr><td>2,000만 원 이하</td><td>연 1.8%</td></tr>
+<tr><td>2,000만~4,000만 원</td><td>연 2.1%</td></tr>
+<tr><td>4,000만~5,000만 원</td><td>연 2.4%</td></tr>
+</tbody>
+</table>
+</div>
+<p style="font-size:14px;color:#64748b;margin-bottom:24px;">※ 2026년 주택도시기금 기준 예시. 청년·신혼부부 등 특별 대상은 우대금리 적용.</p>
+
+<h3>청년 버팀목 전세대출 — 일반보다 더 좋은 조건</h3>
+
+<div class="custom-table-wrapper">
+<table class="custom-table">
+<thead>
+<tr><th>항목</th><th>일반 버팀목</th><th>청년 버팀목 (만 34세 이하)</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>소득 기준</strong></td><td>5,000만 원 이하</td><td>5,000만 원 이하</td></tr>
+<tr><td><strong>대출 한도</strong></td><td>최대 3억 2,000만 원</td><td>최대 2억 원</td></tr>
+<tr><td><strong>금리 우대</strong></td><td>기본 금리</td><td>기본 금리 대비 0.3~0.5%p 추가 우대</td></tr>
+<tr><td><strong>대상 주택</strong></td><td>보증금 3억 원 이하</td><td>보증금 3억 원 이하</td></tr>
 </tbody>
 </table>
 </div>
 
-<div class="expert-analysis" style="background: #f8fafc; border-left: 4px solid #3b82f6; padding: 24px; margin: 40px 0; border-radius: 0 16px 16px 0;">
-<h3 style="font-size: 18px; font-weight: 800; color: #1e293b; margin-bottom: 16px;">💡 [K-복지 리서치랩] 주거 지원 활용 가이드</h3>
-<p style="font-size: 15px; color: #475569; line-height: 1.8; margin-bottom: 12px;">무주택자라면 주거 지원 제도를 단계별로 활용하는 전략이 중요합니다. 당장 내 집 마련이 어렵다면 버팀목 전세자금 대출로 안정적인 전세 생활을 시작하고, 청약저축을 꾸준히 납입하면서 내 집 마련 기회를 모색하는 방법이 현실적입니다 (국토교통부 공식 안내 기준).</p>
-<p style="font-size: 15px; color: #475569; line-height: 1.8; margin-bottom: 12px;">기초생활수급자 가구의 경우 주거급여를 통해 임차료를 별도 지원받을 수 있습니다. <a href="/articles/basic-livelihood/">기초생활보장 주거급여 안내</a>도 함께 확인해 보세요. 저소득 가구가 전세보증금 대출과 주거급여를 동시에 활용하는 것이 가능한지는 담당 기관에 개별 문의해야 합니다.</p>
+<h3>버팀목 대출에서 자주 발목 잡히는 조건들</h3>
+
+<div style="background:#fef3c7;border-left:4px solid #f59e0b;padding:20px;margin:24px 0;border-radius:0 8px 8px 0;">
+<strong>⚠️ 함정 3 — "보증금이 3억을 1원이라도 넘으면 불가":</strong> 버팀목 전세자금의 보증금 상한은 수도권 3억 원, 지방 2억 원입니다(2026년 기준 확인 필요). 계약서에 명시된 전세 보증금이 조금이라도 초과하면 신청이 불가합니다. 집주인과 협의하여 보증금을 상한 이하로 조정하는 경우도 있습니다.
 </div>
 
-<h2>❓ 자주 묻는 질문 (FAQ)</h2>
-
-<div style="margin-bottom: 20px; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px;">
-<h3 style="font-size: 16px; font-weight: 700; color: #1e40af; margin-bottom: 8px;">Q1. 신혼부부가 아닌 일반 직장인도 디딤돌 대출을 받을 수 있나요?</h3>
-<p style="color: #334155; margin: 0;">A. 가능합니다. 신혼부부가 아니더라도 부부합산 연 소득 6,000만 원 이하의 무주택 세대주이면 신청 가능합니다. 다만 신혼부부 특례 금리는 적용되지 않습니다.</p>
+<div style="background:#fef3c7;border-left:4px solid #f59e0b;padding:20px;margin:24px 0;border-radius:0 8px 8px 0;">
+<strong>⚠️ 함정 4 — "갱신 계약 시 재신청 필요":</strong> 전세 계약 만기 후 갱신 또는 이사 시에는 버팀목 대출을 새로 신청해야 합니다. 자동 연장되지 않으며, 갱신 시점의 소득 조건을 다시 충족해야 합니다.
 </div>
 
-<div style="margin-bottom: 20px; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px;">
-<h3 style="font-size: 16px; font-weight: 700; color: #1e40af; margin-bottom: 8px;">Q2. 버팀목 전세자금 대출 후 이사하면 어떻게 되나요?</h3>
-<p style="color: #334155; margin: 0;">A. 이사 시 기존 대출을 전환하거나 조기 상환하고 새 전세 계약에 맞춰 재신청이 가능합니다. 자세한 절차는 취급 은행 또는 기금e든든에 문의하세요.</p>
+<hr style="margin:40px 0;border:none;border-top:2px solid #e2e8f0;"/>
+
+<h2>🔍 내 상황에 맞는 선택 기준 — 질문으로 따라가기</h2>
+
+<div style="background:#f0f9ff;border:2px solid #3b82f6;border-radius:12px;padding:24px;margin:24px 0;">
+<h3 style="color:#1e40af;margin-bottom:16px;">📌 지금 내 상황을 점검하세요</h3>
+
+<p><strong>Q1. 내 집을 살 예정인가? 아니면 전세로 살 예정인가?</strong><br/>
+→ 구입: 디딤돌 / 전세: 버팀목</p>
+
+<p><strong>Q2. 부부합산 연 소득이 5,000만 원을 초과하는가?</strong><br/>
+→ 초과하면: 버팀목 불가 → 디딤돌만 가능<br/>
+→ 이하라면: 두 가지 모두 검토</p>
+
+<p><strong>Q3. 전세를 생각하고 있고 소득이 5,000만 원 이하라면:</strong><br/>
+→ 만 34세 이하: 청년 버팀목 우선 검토 (금리 우대)<br/>
+→ 신혼부부: 신혼부부 전용 버팀목 우선 검토<br/>
+→ 일반: 일반 버팀목 적용</p>
+
+<p><strong>Q4. 구입을 생각하고 있고 처음 집을 사는 건가?</strong><br/>
+→ 생애 최초 구입: LTV 80% 적용 (일반 70%) → 조건 더 유리</p>
 </div>
 
-<div style="margin-bottom: 20px; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px;">
-<h3 style="font-size: 16px; font-weight: 700; color: #1e40af; margin-bottom: 8px;">Q3. 청약저축은 몇 년 납입해야 유리한가요?</h3>
-<p style="color: #334155; margin: 0;">A. 국민주택(공공분양) 청약에서는 납입 횟수와 금액이 모두 중요합니다. 일반적으로 2년 이상 납입하고, 지역 및 주택 유형에 따라 청약 순위가 결정됩니다. 한국부동산원 청약홈에서 본인의 청약 조건을 미리 확인해 두세요.</p>
+<hr style="margin:40px 0;border:none;border-top:2px solid #e2e8f0;"/>
+
+<h2>📋 신청 서류 및 절차 — 디딤돌·버팀목 공통</h2>
+
+<h3>공통 필수 서류</h3>
+<ul style="padding-left:20px;line-height:2.2;">
+<li>✅ 신분증</li>
+<li>✅ 주민등록등본</li>
+<li>✅ 가족관계증명서</li>
+<li>✅ 건강보험료 납부확인서 또는 소득확인증명서</li>
+<li>✅ 근로소득원천징수영수증 또는 사업소득 확인서류</li>
+<li>✅ 매매(또는 임대차) 계약서</li>
+</ul>
+
+<h3>신청 창구</h3>
+<ul style="padding-left:20px;line-height:2.2;">
+<li>우리은행, KB국민은행, NH농협은행, 신한은행, 하나은행 등 협약 은행 창구</li>
+<li>기금e든든(enhuf.molit.go.kr) 온라인 신청 (일부 상품)</li>
+</ul>
+
+<hr style="margin:40px 0;border:none;border-top:2px solid #e2e8f0;"/>
+
+<h2>💡 전문가 조언: 두 상품을 순차적으로 활용하는 전략</h2>
+
+<div class="expert-analysis" style="background:#f8fafc;border-left:4px solid #3b82f6;padding:24px;margin:40px 0;border-radius:0 16px 16px 0;">
+<h3 style="font-size:18px;font-weight:800;color:#1e293b;margin-bottom:16px;">💡 [K-복지 리서치랩] 단계별 주거 전략</h3>
+<p style="font-size:15px;color:#475569;line-height:1.8;margin-bottom:12px;">많은 분이 "버팀목으로 전세 살다가 돈 모아서 디딤돌로 내 집 마련"하는 단계적 전략을 씁니다. 버팀목 금리(연 1~2%대)로 이자 부담을 줄이면서 청약 납입을 병행하고, 당첨 후 디딤돌로 전환하는 것이 현실적인 경로입니다 (국토교통부 공식 기준).</p>
+<p style="font-size:15px;color:#475569;line-height:1.8;margin-bottom:12px;">단, 두 상품을 동시에 받는 것은 불가합니다. 버팀목 대출 중에는 주택을 매입하면 버팀목이 자동 해지될 수 있으므로, 내 집 마련 시점에 맞추어 전환 계획을 세워야 합니다.</p>
 </div>
 
-<div class="gov-link-block" style="text-align: center; margin-top: 60px; padding: 32px; background: #f0f9ff; border-radius: 16px;">
-<p style="font-size: 15px; color: #1e40af; margin-bottom: 16px; font-weight: 700;">🏛️ 주거 지원 대출 신청은 공식 채널을 이용하세요</p>
-<a href="https://enhuf.molit.go.kr/" target="_blank" rel="noopener noreferrer nofollow" class="gov-link-btn" style="display: inline-block; background: #2563eb; color: #fff; padding: 16px 32px; border-radius: 12px; font-weight: 800; text-decoration: none; font-size: 16px; margin-right: 12px;">🏛️ 기금e든든 공식 신청처 🔗</a>
-<a href="https://www.applyhome.co.kr/" target="_blank" rel="noopener noreferrer nofollow" class="gov-link-btn" style="display: inline-block; background: #0f766e; color: #fff; padding: 16px 32px; border-radius: 12px; font-weight: 800; text-decoration: none; font-size: 16px;">🏠 청약홈 바로가기 🔗</a>
+<div class="gov-link-block" style="text-align:center;margin-top:60px;padding:32px;background:#f0f9ff;border-radius:16px;">
+<p style="font-size:15px;color:#1e40af;margin-bottom:16px;font-weight:700;">🏛️ 디딤돌·버팀목 신청은 주택도시기금 공식 채널을 이용하세요</p>
+<a href="https://www.enhuf.molit.go.kr" target="_blank" rel="noopener noreferrer nofollow" class="gov-link-btn" style="display:inline-block;background:#2563eb;color:#fff;padding:16px 32px;border-radius:12px;font-weight:800;text-decoration:none;font-size:16px;margin-right:12px;">🏛️ 기금e든든 🔗</a>
+<a href="https://www.molit.go.kr" target="_blank" rel="noopener noreferrer nofollow" class="gov-link-btn" style="display:inline-block;background:#0f766e;color:#fff;padding:16px 32px;border-radius:12px;font-weight:800;text-decoration:none;font-size:16px;">📋 국토교통부 🔗</a>
 </div>
