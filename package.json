@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@capacitor/core": "^8.4.1",
     "gray-matter": "^4.0.3",
     "next": "16.2.9",
     "react": "19.2.4",
@@ -17,6 +18,9 @@
     "remark-html": "^16.0.1"
   },
   "devDependencies": {
+    "@capacitor-community/admob": "^8.0.0",
+    "@capacitor/android": "^8.4.1",
+    "@capacitor/cli": "^8.4.1",
     "@tailwindcss/postcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "16.2.9",

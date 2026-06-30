@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Script from "next/script";
 import ThemeToggle from "../components/ThemeToggle";
+import AdMobManager from "../components/AdMobManager";
 import "./globals.css";
 
 export const metadata = {
@@ -40,6 +41,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
+        <AdMobManager />
         {/* Header */}
         <header>
           <div className="nav-container">
